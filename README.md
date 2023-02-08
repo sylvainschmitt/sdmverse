@@ -10,7 +10,7 @@ A test.
 
 ## Online
 
-The corresponding online shiny application is available at: url.
+The corresponding online shiny application is available at: https://sylvainschmitt.shinyapps.io/smdverse/ .
 
 ## Installation
 
