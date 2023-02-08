@@ -1,0 +1,36 @@
+name: SSDM
+title: "Stacked Species Distribution Modelling""
+version: 0.2.8.9002
+author: "Sylvain Schmitt, Robin Pouteau, Dimitri Justeau, Florian de Boissieu, Lukas Baumbach, Philippe Birnbaum""
+maintainer: "Sylvain Schmitt <sylvain.m.schmitt@gmail.com>"
+cran: yes
+github: https://github.com/sylvainschmitt/SSDM
+description: "Allows to map species richness and endemism based on stacked
+    species distribution models (SSDM). Individuals SDMs can be created using a
+    single or multiple algorithms (ensemble SDMs). For each species, an SDM can
+    yield a habitat suitability map, a binary map, a between-algorithm variance
+    map, and can assess variable importance, algorithm accuracy, and between-
+    algorithm correlation. Methods to stack individual SDMs include summing
+    individual probabilities and thresholding then summing. Thresholding can be
+    based on a specific evaluation metric or by drawing repeatedly from a Bernoulli
+    distribution. The SSDM package also provides a user-friendly interface."
+license: "GPL (>=3)"
+occurences:
+   acquisition: no
+   cleaning: yes
+environment:
+   collinearity: no
+   interpolation: no
+bias: no
+study_region: yes
+data_partitioning: yes
+cailbation:
+   general: yes
+   ensemble: yes
+   evaluation: no
+prediction:
+   general: yes
+   extrapolation: no
+post_processing: yes
+gui: yes
+metadta: no
