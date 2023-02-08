@@ -12,7 +12,9 @@ NULL
 #' @return sdmverse packages metadata.
 #'
 #' @examples
+#' \donttest{
 #' list_packages()
+#' }
 #'
 #' @export
 #'

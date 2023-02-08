@@ -15,6 +15,8 @@ Prepare sdmverse packages table
 This function prepare sdmverse packages table.
 }
 \examples{
+\donttest{
 prep_table()
+}
 
 }

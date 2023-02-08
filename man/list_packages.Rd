@@ -15,6 +15,8 @@ List sdmverse packages
 This function list sdmverse packages from online yamls.
 }
 \examples{
+\donttest{
 list_packages()
+}
 
 }

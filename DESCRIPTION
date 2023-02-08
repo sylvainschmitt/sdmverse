@@ -23,13 +23,15 @@ Imports:
     tibble,
     dplyr,
     shiny,
-    DT
+    DT,
+    tidyr,
+    tools
 Collate: 
     'utils-pipe.R'
-    'launch_app.R'
     'list_packages.R'
+    'check_cran_metadata.R'
+    'launch_app.R'
     'prep_table.R'
-    'scrape_cran.R'
 Suggests: 
     covr,
     testthat (>= 3.0.0)

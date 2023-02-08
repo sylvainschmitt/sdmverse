@@ -10,7 +10,9 @@ NULL
 #' @return sdmverse packages metadata.
 #'
 #' @examples
+#' \donttest{
 #' prep_table()
+#' }
 #'
 #' @export
 #'

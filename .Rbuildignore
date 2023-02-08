@@ -3,3 +3,4 @@
 ^codecov\.yml$
 ^\.github$
 LICENSE.md
+.covrignore
