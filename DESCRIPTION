@@ -2,7 +2,7 @@ Package: sdmverse
 Type: Package
 Title: A Meta-Package For Harnessing The Growing Diversity Of Species Distribution Modeling Packages
 Version: 0.1.0
-uthors@R: c(
+Authors@R: c(
     person("Sylvain", "Schmitt", email="sylvain.m.schmitt@gmail.com", role=c("aut", "cre"), comment = c(ORCID = "0000-0001-7759-7106")),
     person("Jamie", "Kass", email="amie.Kass@oist.jp", role="aut", comment = c(ORCID = "0000-0002-9432-895X "))
     )
@@ -17,9 +17,20 @@ Depends:
     R (>= 4.0)
 RoxygenNote: 7.2.3
 Imports: 
-    magrittr
+    magrittr,
+    gh,
+    yaml,
+    tibble,
+    dplyr,
+    shiny,
+    DT
 Collate: 
     'utils-pipe.R'
     'launch_app.R'
     'list_packages.R'
+    'prep_table.R'
     'scrape_cran.R'
+Suggests: 
+    covr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

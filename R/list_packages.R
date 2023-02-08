@@ -2,27 +2,32 @@
 #' @importFrom gh gh
 #' @importFrom yaml read_yaml
 #' @importFrom tibble as_tibble
-#' @importFrom dplyr bind
+#' @importFrom dplyr bind_rows filter
 NULL
 
 #' List sdmverse packages
 #
-#' This function list sdmverse pacakges from online yamls
+#' This function list sdmverse packages from online yamls.
+#'
+#' @return sdmverse packages metadata.
 #'
 #' @examples
-#' \dontrun{
-#'   list_packages()
-#' }
+#' list_packages()
 #'
 #' @export
 #'
-list_packages <- function(){
+list_packages <- function() {
+  name <- NULL
   request <- gh("GET /repos/sylvainschmitt/sdmverse/git/trees/main?recursive=1")
   files <- vapply(request$tree, "[[", "", "path")
   packages <- grep("inst/extdata/packages/", files, value = TRUE, fixed = TRUE)
-  packages <- lapply(packages, function(p) paste0("https://raw.githubusercontent.com/sylvainschmitt/sdmverse/main/", p))
+  packages <- lapply(packages, function(p) {
+    paste0("https://raw.githubusercontent.com/sylvainschmitt/sdmverse/main/",
+           p)
+  })
   lapply(packages, read_yaml) %>%
     lapply(as_tibble) %>%
     bind_rows() %>%
+    filter(name != "package name") %>%
     return()
 }

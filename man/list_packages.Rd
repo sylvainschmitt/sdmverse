@@ -3,17 +3,18 @@
 \name{list_packages}
 \alias{list_packages}
 \title{List sdmverse packages
-This function list sdmverse pacakges from online yamls}
+This function list sdmverse packages from online yamls.}
 \usage{
 list_packages()
 }
+\value{
+sdmverse packages metadata.
+}
 \description{
 List sdmverse packages
-This function list sdmverse pacakges from online yamls
+This function list sdmverse packages from online yamls.
 }
 \examples{
-\dontrun{
-  list_packages()
-}
+list_packages()
 
 }

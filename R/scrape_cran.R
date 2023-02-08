@@ -7,11 +7,11 @@ NULL
 #'
 #' @examples
 #' \dontrun{
-#'   scrape_cran()
+#' scrape_cran()
 #' }
 #'
 #' @export
 #'
-scrape_cran <- function(){
+scrape_cran <- function() {
   stop("scrape_cran not developed yet.")
 }

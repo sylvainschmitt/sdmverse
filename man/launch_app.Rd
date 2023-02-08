@@ -5,13 +5,24 @@
 \title{Launch sdmverse App
 This function launch the sdmverse application.}
 \usage{
-launch_app(...)
+launch_app(
+  port = getOption("shiny.port"),
+  host = getOption("shiny.host", "127.0.0.1"),
+  working.directory = getwd()
+)
 }
 \arguments{
-\item{...}{additional parameters from the \code{\link[shiny:runApp]{runApp}} function in the \emph{shiny} package.}
+\item{port}{char. The TCP port that the application should listen on (see
+\code{\link[shiny]{runApp}} for more details).}
+
+\item{host}{char. The IPv4 address that the application should listen on (see
+\code{\link[shiny]{runApp}} for more details).}
+
+\item{working.directory}{char. Directory in which the application will run.}
 }
 \value{
-This function does not return.
+Open a window with a shiny app to use the SSDM package with an
+  user-friendly interface.
 }
 \description{
 Launch sdmverse App
@@ -19,7 +30,7 @@ This function launch the sdmverse application.
 }
 \examples{
 \dontrun{
-  ForestryAnalysisInR::launchRFA(launch.browser = TRUE)
+  launch_app()
 }
 
 }
