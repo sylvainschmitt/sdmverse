@@ -1,0 +1,24 @@
+name: "package name"
+title: "package title"
+version: 0.1.0
+author: "package authors"
+maintainer: "package maintainer"
+cran: yes
+github: "github url"
+description: "package description"
+license: "package license"
+occ_acquisition: no
+occ_cleaning: no
+env_collinearity: no
+env_interpolation: no
+bias: no
+study_region: no
+data_partitioning: no
+cailb_general: no
+cailb_ensemble: no
+cailb_evaluation: no
+pred_general: no
+pred_extrapolation: no
+post_processing: no
+gui: no
+metadta: no
