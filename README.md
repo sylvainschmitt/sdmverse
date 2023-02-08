@@ -1,8 +1,10 @@
 # *sdmverse*: A Meta-Package For Harnessing The Growing Diversity Of Species Distribution Modeling Packages
 
 [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
-[![R-CMD-check](https://github.com/sylvainschmitt/rcontroll/sdmverse/R-CMD-check/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions)
-![Codecov test coverage](https://codecov.io/gh/sylvainschmitt/sdmverse/branch/main/graph/badge.svg)](https://app.codecov.io/gh/sylvainschmitt/sdmverse?branch=main)
+[![R-CMD-check](https://github.com/sylvainschmitt/sdmverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/sylvainschmitt/sdmverse/branch/main/graph/badge.svg)](https://app.codecov.io/gh/sylvainschmitt/sdmverse?branch=main)
+[![lint](https://github.com/sylvainschmitt/sdmverse/workflows/lint/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions?query=workflow%3Alint)
+
 
 A test.
 
