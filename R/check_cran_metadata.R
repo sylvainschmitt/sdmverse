@@ -10,10 +10,10 @@ NULL
 #
 #' This function check package metadata with CRAN metadata.
 #'
-#' @return nothing or stop if this is not matching
+#' @return nothing or an error if this is not matching
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' check_cran_metadata()
 #' }
 #'
@@ -44,11 +44,16 @@ check_cran_metadata <- function() {
   fails <- left_join(packages, cran, by = c("name", "variable")) %>%
     mutate(check = (value_sdmverse == value_cran)) %>%
     filter(!check)
-  for (l in seq_len(nrow(fails))) {
-    warning(paste0("For package ", fails[l, ]$name, ", ",
-                  fails[l, ]$variable, " is defined as '",
-                  fails[l, ]$value_sdmverse,
-                  "' but should b defined as '", fails[l, ]$value_cran,
-                  "' according to CRAN."))
+  if (nrow(fails) > 0) {
+    message <- "\n"
+    for (l in seq_len(nrow(fails))) {
+      message <- paste0(message,
+                        "-For package ", fails[l, ]$name, ", ",
+                        fails[l, ]$variable, " is defined as '",
+                        fails[l, ]$value_sdmverse,
+                        "' but should be defined as '", fails[l, ]$value_cran,
+                        "' according to CRAN.\n")
+    }
+    stop(message)
   }
 }

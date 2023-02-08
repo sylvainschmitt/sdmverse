@@ -1,10 +1,9 @@
-# *sdmverse*: A Meta-Package For Harnessing The Growing Diversity Of Species Distribution Modeling Packages
+# *sdmverse*: a meta-package for harnessing the growing diversity of species distribution modeling packages
 
 [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
 [![R-CMD-check](https://github.com/sylvainschmitt/sdmverse/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions/workflows/check-standard.yaml)
 [![Codecov test coverage](https://codecov.io/gh/sylvainschmitt/sdmverse/branch/main/graph/badge.svg)](https://app.codecov.io/gh/sylvainschmitt/sdmverse?branch=main)
 [![lint](https://github.com/sylvainschmitt/sdmverse/workflows/lint/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions?query=workflow%3Alint)
-
 
 A test.
 
@@ -27,7 +26,7 @@ devtools::install_github("sylvainschmitt/sdmverse")
 
 ```r
 library(sdmverse)
-# example
+launch_app()
 ```
 
 ## Contribution

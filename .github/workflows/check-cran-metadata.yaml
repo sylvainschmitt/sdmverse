@@ -9,7 +9,7 @@ on:
 name: check-CRAN-metadata
 
 jobs:
-  lint:
+  check-CRAN-metadata:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -22,8 +22,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::lintr, local::.
-          needs: lint
+          extra-packages: local::.
 
       - name: check-CRAN-metadata
         run: sdmverse::check_cran_metadata()
