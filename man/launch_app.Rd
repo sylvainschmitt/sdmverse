@@ -7,8 +7,7 @@ This function launch the sdmverse application.}
 \usage{
 launch_app(
   port = getOption("shiny.port"),
-  host = getOption("shiny.host", "127.0.0.1"),
-  working.directory = getwd()
+  host = getOption("shiny.host", "127.0.0.1")
 )
 }
 \arguments{
@@ -17,8 +16,6 @@ launch_app(
 
 \item{host}{char. The IPv4 address that the application should listen on (see
 \code{\link[shiny]{runApp}} for more details).}
-
-\item{working.directory}{char. Directory in which the application will run.}
 }
 \value{
 Open a window with a shiny app to use the SSDM package with an
@@ -30,7 +27,7 @@ This function launch the sdmverse application.
 }
 \examples{
 \dontrun{
-  launch_app()
+launch_app()
 }
 
 }

@@ -13,7 +13,7 @@ This function scrape CRAN to verify package metadata
 }
 \examples{
 \dontrun{
-  scrape_cran()
+scrape_cran()
 }
 
 }
