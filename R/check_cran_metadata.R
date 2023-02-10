@@ -21,21 +21,21 @@ NULL
 #'
 check_cran_metadata <- function() {
   name <- title <- version <- author <- NULL
-  maintainer <- license <- description <- NULL
+  maintainer <- description <- NULL
   Package <- Title <- Version <- Author <- Maintainer <- NULL # nolint
-  License <- Description <- NULL # nolint
+  Description <- NULL # nolint
   value_sdmverse <- value_cran <- check <- NULL
   packages <- list_packages() %>%
     filter(cran) %>%
-    select(name, title, version, author, maintainer, license, description)
+    select(name, title, version, author, maintainer, description)
   cran_db <- CRAN_package_db()
   cran <- as_tibble(cran_db) %>%
     filter(Package %in% packages$name) %>%
     select(Package, Title, Version, Author, Maintainer,
-           License, Description) %>%
+           Description) %>%
     rename(name = Package, title = Title, version = Version,
            author = Author, maintainer = Maintainer,
-           license = License, description = Description) %>%
+           description = Description) %>%
     mutate(description = gsub("\n    ", " ", description))
   packages <- packages %>%
     gather("variable", "value_sdmverse", -name)

@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9004
+
+-   CONTRIBUTING.md
+
 sdmverse 0.1.0.9003
 
 -   check_cran_metadata & GA test

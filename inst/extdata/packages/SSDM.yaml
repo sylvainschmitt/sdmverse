@@ -14,7 +14,6 @@ description: "Allows to map species richness and endemism based on stacked
     individual probabilities and thresholding then summing. Thresholding can be
     based on a specific evaluation metric or by drawing repeatedly from a Bernoulli
     distribution. The SSDM package also provides a user-friendly interface."
-license: "GPL (>= 3) | file LICENSE"
 occ_acquisition: no
 occ_cleaning: yes
 env_collinearity: no
@@ -22,11 +21,11 @@ env_interpolation: no
 bias: no
 study_region: yes
 data_partitioning: yes
-cailb_general: yes
-cailb_ensemble: yes
-cailb_evaluation: no
+calib_general: yes
+calib_ensemble: yes
+calib_evaluation: no
 pred_general: yes
 pred_extrapolation: no
 post_processing: yes
 gui: yes
-metadta: no
+metadata: no

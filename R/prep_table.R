@@ -17,8 +17,8 @@ NULL
 #' @export
 #'
 prep_table <- function() {
-  version <- author <- cran <- github <- description <- license <- NULL
+  version <- author <- cran <- github <- description <- NULL
   list_packages() %>%
-    select(-version, -author, -cran, -github, -description, -license) %>%
+    select(-version, -author, -cran, -github, -description) %>%
     return()
 }
