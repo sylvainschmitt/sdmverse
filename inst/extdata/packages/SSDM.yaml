@@ -1,6 +1,6 @@
 name: SSDM
 title: "Stacked Species Distribution Modelling"
-version: 0.2.8.9002
+version: 0.2.8
 author: "Sylvain Schmitt, Robin Pouteau, Dimitri Justeau, Florian de Boissieu, Lukas Baumbach, Philippe Birnbaum"
 maintainer: "Sylvain Schmitt <sylvain.m.schmitt@gmail.com>"
 cran: yes
@@ -14,7 +14,7 @@ description: "Allows to map species richness and endemism based on stacked
     individual probabilities and thresholding then summing. Thresholding can be
     based on a specific evaluation metric or by drawing repeatedly from a Bernoulli
     distribution. The SSDM package also provides a user-friendly interface."
-license: "GPL (>=3)"
+license: "GPL (>=3) | file LICENSE"
 occ_acquisition: no
 occ_cleaning: yes
 env_collinearity: no
