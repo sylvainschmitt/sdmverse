@@ -10,7 +10,7 @@ NULL
 #
 #' This function check package metadata with CRAN metadata.
 #'
-#' @return nothing or an error if this is not matching
+#' @return TRUE or an error if this is not matching
 #'
 #' @examples
 #' \dontrun{
@@ -56,4 +56,5 @@ check_cran_metadata <- function() {
     }
     stop(message)
   }
+  return(TRUE)
 }

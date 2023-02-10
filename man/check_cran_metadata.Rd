@@ -8,7 +8,7 @@ This function check package metadata with CRAN metadata.}
 check_cran_metadata()
 }
 \value{
-nothing or an error if this is not matching
+TRUE or an error if this is not matching
 }
 \description{
 Check CRAN metadata
