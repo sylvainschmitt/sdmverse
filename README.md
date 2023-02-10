@@ -34,4 +34,4 @@ sdmverse::launch_app()
 
 ## Contribution
 
-If you want to contribute with your package metadata, please use a pull request following [the contribution guidelines](adress).
+If you want to contribute with your package metadata, please use a pull request following [the contribution guidelines](https://github.com/sylvainschmitt/sdmverse/blob/main/CONTRIBUTING.md).
