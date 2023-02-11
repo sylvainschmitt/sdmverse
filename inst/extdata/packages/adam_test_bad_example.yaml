@@ -1,0 +1,23 @@
+name: "badPackage"
+title: "package title"
+version: TRUE
+author: no
+maintainer: "package maintainer"
+cran: maybe
+github: "cnn.com"
+description: "package description"
+occ_acquisition: yes
+occ_cleaning: true
+env_collinearity: false
+env_interpolation: no
+bias: no
+study_region: no
+data_partitioning: no
+calib_general: no
+calib_ensemble: no
+calib_evaluation: no
+pred_general: no
+pred_extrapolation: no
+post_processing: no
+gui: no
+metadata: "in prep"
