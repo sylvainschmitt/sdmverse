@@ -5,7 +5,11 @@
 \title{List sdmverse packages
 This function list sdmverse packages from online yamls.}
 \usage{
-list_packages()
+list_packages(where = "online")
+}
+\arguments{
+\item{where}{char. Where to download the packages metadata,
+either 'locally' with the package or 'online' in the GitHub repository.}
 }
 \value{
 sdmverse packages metadata.

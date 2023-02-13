@@ -25,7 +25,7 @@ check_cran_metadata <- function() {
   Package <- Title <- Version <- Author <- Maintainer <- NULL # nolint
   Description <- NULL # nolint
   value_sdmverse <- value_cran <- check <- NULL
-  packages <- list_packages() %>%
+  packages <- list_packages(where = "locally") %>%
     filter(cran) %>%
     select(name, title, version, author, maintainer, description)
   cran_db <- CRAN_package_db()

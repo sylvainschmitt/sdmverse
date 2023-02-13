@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9005
+
+-   check-CRAN-metadata locally for PR
+
 sdmverse 0.1.0.9004
 
 -   CONTRIBUTING.md
