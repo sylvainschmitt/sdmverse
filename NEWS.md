@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9006
+
+-   check-CRAN-metadata transform authors with utils::as.person
+
 sdmverse 0.1.0.9005
 
 -   check-CRAN-metadata locally for PR

@@ -2,8 +2,9 @@
 #' @include list_packages.R
 #' @importFrom tools CRAN_package_db
 #' @importFrom tibble as_tibble
-#' @importFrom dplyr filter select rename mutate left_join
+#' @importFrom dplyr filter select rename mutate left_join rowwise
 #' @importFrom tidyr gather
+#' @importFrom utils as.person
 NULL
 
 #' Check CRAN metadata
@@ -36,7 +37,11 @@ check_cran_metadata <- function() {
     rename(name = Package, title = Title, version = Version,
            author = Author, maintainer = Maintainer,
            description = Description) %>%
-    mutate(description = gsub("\n    ", " ", description))
+    mutate(description = gsub("\n    ", " ", description)) %>%
+    rowwise() %>%
+    mutate(author = paste(format(as.person(author),
+                                 include = c("given", "family")),
+                          collapse = ", "))
   packages <- packages %>%
     gather("variable", "value_sdmverse", -name)
   cran <- cran %>%

@@ -18,8 +18,8 @@ among others. The package was originally built for Maxent models (Phillips et
 al. 2006, Phillips et al. 2017), but the current version allows possible
 extensions for any modeling algorithm. The extensive vignette, which guides
 users through most package functionality but unfortunately has a file size too
-big for CRAN, can be found here on the package's Github Pages website:\
-<https://jamiemkass.github.io/ENMeval/articles/ENMeval-2.0-vignette.html>."
+big for CRAN, can be found here on the package's Github Pages
+website:\ <https://jamiemkass.github.io/ENMeval/articles/ENMeval-2.0-vignette.html>."
 occ_acquisition: no
 occ_cleaning: no
 env_collinearity: no
