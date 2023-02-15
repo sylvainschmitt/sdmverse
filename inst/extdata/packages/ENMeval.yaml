@@ -1,15 +1,13 @@
 name: ENMeval
 title: AutomatedX Tuning and Evaluations of Ecological Niche Models
 version: 2.0.4
-author: >
-Jamie M. Kass, Robert Muscarella, Peter J. Galante, Corentin Bohl,
+author: "Jamie M. Kass, Robert Muscarella, Peter J. Galante, Corentin Bohl,
 Gonzalo E. Buitrago-Pinilla, Robert A. Boria, Mariano Soley-Guardia,
-Robert P. Anderson
+Robert P. Anderson"
 maintainer: Jamie M. Kass <jamie.m.kass@gmail.com>
 cran: yes
 github: https://github.com/jamiemkass/ENMeval
-description: >
-Runs ecological niche models over all combinations of user-defined
+description: "Runs ecological niche models over all combinations of user-defined
 settings (i.e., tuning), performs cross validation to evaluate models, and
 returns data tables to aid in selection of optimal model settings that balance
 goodness-of-fit and model complexity. Also has functions to partition data
@@ -21,7 +19,7 @@ al. 2006, Phillips et al. 2017), but the current version allows possible
 extensions for any modeling algorithm. The extensive vignette, which guides
 users through most package functionality but unfortunately has a file size too
 big for CRAN, can be found here on the package's Github Pages website:\
-<https://jamiemkass.github.io/ENMeval/articles/ENMeval-2.0-vignette.html>.
+<https://jamiemkass.github.io/ENMeval/articles/ENMeval-2.0-vignette.html>."
 occ_acquisition: no
 occ_cleaning: no
 env_collinearity: no
