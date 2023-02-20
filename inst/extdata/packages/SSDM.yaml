@@ -16,16 +16,24 @@ description: "Allows to map species richness and endemism based on stacked
     distribution. The SSDM package also provides a user-friendly interface."
 occ_acquisition: no
 occ_cleaning: yes
+data_integration: no
 env_collinearity: no
-env_interpolation: no
+env_process: no
 bias: no
 study_region: yes
+backg_sample: yes
 data_partitioning: yes
-calib_general: yes
-calib_ensemble: yes
-calib_evaluation: no
+mod_fit: yes
+mod_ensemble: yes
+mod_stack: yes
+mod_evaluate: yes
+mod_multispecies: no
+mod_mechanistic: no
 pred_general: yes
-pred_extrapolation: no
-post_processing: yes
+pred_extrapolation: yes
+pred_inspect: no
+post_processing: no
 gui: yes
 metadata: no
+manuscript_citation: "Full citation of associated manuscript(s)  (if none, leave blank; if multiple, separate with semicolons)"
+manuscript_doi: "DOI for manuscripts in previous field (if multiple, separate with semicolons)"

@@ -4,7 +4,7 @@
 [![lint](https://github.com/sylvainschmitt/sdmverse/workflows/lint/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions?query=workflow%3Alint)
 [![check-cran-metadata](https://github.com/sylvainschmitt/sdmverse/actions/workflows/check-cran-metadata.yaml/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions?query=workflow%3Acheck-cran-metadata)
 
-## How to contribute to *sdmverse*
+##  How to review contributions to *sdmverse*?
 
 #### **Why?**
 
@@ -16,17 +16,15 @@ For example, take a look at [*SSDM* metadata](https://github.com/sylvainschmitt/
 
 #### **How?**
 
-If you want to contribute, please fork the repository on GitHub.
-Then, online on GitHub, in Rstudio or with your favourite editor, create a YAML file in `inst/extdata/packages/` called `{your_package}.yaml`.
-Copy and fill in the contents of the file [`example.yaml`](https://github.com/sylvainschmitt/sdmverse/blob/main/inst/extdata/packages/example.yaml).
+If you have agreed to review a contribution, thank you first as this repository could not work without your voluntary work!
+First, make sure the GitHub *check-CRAN-metadata* action does not fail.
+If it does, don't bother reviewing and ask the package maintainer to fix their pull request accordingly.
+Then, in the online Pull Request on GitHub, use the `Add your review` button if you have been designated by the editor.
+Please perform a line-by-line review of the package metadata to be reviewed in `inst/extdata/packages/{the_package}.yaml`.
+Once the line-by-line review is complete, make a decision in the interface (Comment only, Approve, or Request changes) with a message justifying your choice for the editor.
+In particular, we ask you to check that the fields where the package maintainer has answered yes are indeed included in a metadata function of the submitted package.
+If necessary, you can use the interface to request specific details from the package maintainer.
 Details of the various metadata fields are given below.
-Once your file is ready and online on your GitHub fork, open a pull request to contribute to *sdmverse*.
-Please provide in your pull request message a quick list
-and if possible a brief description of the functions of your package corresponding to each field for which you have answered yes.
-Please ensure that the GitHub *check-CRAN-metadata* action does not fail.
-You can then ask an editor to start the review process.
-Remember that the review process is voluntary, so try to be understanding with reviewers and editors.
-Once the review process has been successfully completed, we will be happy to include your package in the *sdmverse* to help users discover it.
 
 #### **What?**
 
