@@ -1,3 +1,11 @@
+sdmverse 0.1.0.9008
+
+-   SSDM.yaml, ENMeval.yaml, remove example from table
+
+sdmverse 0.1.0.9007
+
+-   Updated CONTRIBUTING.md, SSDM.yaml, example.yaml & added REVIEWING.md
+
 sdmverse 0.1.0.9006
 
 -   check-CRAN-metadata transform authors with utils::as.person

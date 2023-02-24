@@ -44,6 +44,6 @@ list_packages <- function(where = "online") {
   lapply(packages, read_yaml) %>%
     lapply(as_tibble) %>%
     bind_rows() %>%
-    filter(name != "package name") %>%
+    filter(name != "Name of package (same as CRAN)") %>%
     return()
 }
