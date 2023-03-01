@@ -25,12 +25,14 @@ Imports:
     shiny,
     DT,
     tidyr,
-    tools
+    tools,
+    ggplot2
 Collate: 
     'utils-pipe.R'
     'list_packages.R'
     'check_cran_metadata.R'
     'launch_app.R'
+    'plot_table.R'
     'prep_table.R'
 Suggests: 
     covr,
