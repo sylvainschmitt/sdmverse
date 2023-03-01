@@ -18,6 +18,7 @@ NULL
 #' @export
 #'
 plot_table <- function(type = "tile") {
+  name <- occ_acquisition <- metadata <- category <- value <- NULL
   d <- prep_table() %>%
     select(name, occ_acquisition:metadata) %>%
     pivot_longer(cols = occ_acquisition:metadata, names_to = "category")
