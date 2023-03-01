@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9009
+
+-   plot_table by @jamiemkass with test
+
 sdmverse 0.1.0.9008
 
 -   SSDM.yaml, ENMeval.yaml, remove example from table
