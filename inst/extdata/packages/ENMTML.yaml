@@ -1,0 +1,42 @@
+name : "ENMTML"
+title: "Create and process Ecological Niche, including several pre- and post-processing methods"
+version: 1.0.0
+author: "André F.A. Andrade, Santiago J.E. Velazco, Paulo De Marco"
+maintainer: "André F.A. Andrade <andrefaandrade@gmail.com>"
+cran: no
+github: https://andrefaa.github.io/ENMTML
+description: "ENMTML is a package to create and
+      process Ecological Niche Models. The main
+      purpose of this package is to assemble all this
+      methodological complexity spread over several
+      papers and bring it into the spotlight in a
+      simple way for people not used to the details
+      of ENMs. The package contains several
+      alternatives to different methodological steps,
+      e.g., pseudo-absence allocation and accessible
+      area delimitation, formulated within a single
+      function, to make it accessible for people not
+      used to the programming environment."
+occ_acquisition: no
+occ_cleaning: yes
+data_integration: no
+env_collinearity: yes
+env_process: no
+bias: yes
+study_region: yes
+backg_sample: yes
+data_partitioning: yes
+mod_fit: yes
+mod_ensemble: yes
+mod_stack: no
+mod_evaluate: yes
+mod_multispecies: yes
+mod_mechanistic: no
+pred_general: yes
+pred_extrapolation: yes
+pred_inspect: no
+post_processing: yes
+gui: no
+metadata: no
+manuscript_citation: "Andrade, A.F.A., Velazco, S.J.E., De Marco Jr, P., 2020. ENMTML: An R package for a straightforward construction of complex ecological niche models. Environmental Modelling & Software 125, 104615"
+manuscript_doi: https://doi.org/10.1016/j.envsoft.2019.104615
