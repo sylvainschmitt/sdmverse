@@ -12,7 +12,7 @@ description: "User-friendly framework that enables the training and the
     variables or to tune model hyperparameters have an interactive real-time
     chart displayed in the 'RStudio' viewer pane during their execution."
 occ_acquisition: no
-occ_cleaning: yes
+occ_cleaning: no
 data_integration: no
 env_collinearity: yes
 env_process: no
