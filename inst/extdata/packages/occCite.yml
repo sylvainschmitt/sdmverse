@@ -1,0 +1,31 @@
+name : occCite
+title: "occCite: Querying and Managing Large Biodiversity Occurrence Datasets"
+version: 0.5.6
+author: "Hannah L. Owens, Cory Merow, Brian Maitner, Jamie M. Kass, Vijay Barve, Robert P. Guralnick"
+maintainer: "Hannah L. Owens <hannah.owens@gmail.com>"
+cran: yes
+github: https://github.com/ropensci/occCite
+description: "Facilitates the gathering of biodiversity occurrence data from disparate sources. Metadata is managed throughout the process to facilitate reporting and enhanced ability to repeat analyses."
+occ_acquisition: yes
+occ_cleaning: no
+data_integration: no
+env_collinearity: no
+env_process: no
+bias: no
+study_region: no
+backg_sample: no
+data_partitioning: no
+mod_fit: no
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: no
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: no
+pred_extrapolation: no
+pred_inspect: no
+post_processing: no
+gui: no
+metadata: yes
+manuscript_citation: "Owens, H.L., Merow, C., Maitner, B.S., Kass, J.M., Barve, V. and Guralnick, R.P. (2021). occCite: Tools for querying and managing large biodiversity occurrence datasets. Ecography, 44, 1228-1235."
+manuscript_doi: "10.1111/ecog.05618"
