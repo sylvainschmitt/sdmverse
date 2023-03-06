@@ -5,14 +5,7 @@ author: Eduardo Arlé, Alexander Zizka, Patrick Weigelt, Sam Levin, Carsten Meye
 maintainer: Eduardo Arlé <eduardoarle@tauex.tau.ac.il>
 cran: yes
 github: https://github.com/EduardoArle/bRacatus
-description: Automated assessment of accuracy and geographical status of georeferenced
-             biological data. The methods rely on reference regions, namely checklists
-             and range maps. Includes functions to obtain data from the Global Biodiversity
-             Information Facility <https://www.gbif.org/> and from the Global Inventory of
-             Floras and Traits <https://gift.uni-goettingen.de/home>. Alternatively, the
-             user can input their own data. Furthermore, provides easy visualisation
-             of the data and the results through the plotting functions. Especially
-             suited for large datasets.
+description: "Automated assessment of accuracy and geographical status of georeferenced biological data. The methods rely on reference regions, namely checklists and range maps. Includes functions to obtain data from the Global Biodiversity Information Facility <https://www.gbif.org/> and from the Global Inventory of Floras and Traits <https://gift.uni-goettingen.de/home>. Alternatively, the user can input their own data. Furthermore, provides easy visualisation of the data and the results through the plotting functions. Especially suited for large datasets. The reference for the methodology is: Arlé et al. (under review)."
 occ_acquisition: yes
 occ_cleaning: yes
 data_integration: yes
