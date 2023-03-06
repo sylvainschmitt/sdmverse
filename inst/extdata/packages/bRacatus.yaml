@@ -34,5 +34,5 @@ pred_inspect: no
 post_processing: no
 gui: no
 metadata: no
-manuscript_citation: Arlé, E., Zizka, A., Keil, P., Winter, M., Essl, F., Knight, T., Weigelt, P., Jiménez‐Muñoz, M., & Meyer, C. (2021). bRacatus: A method to estimate the accuracy and biogeographical status of georeferenced biological data. Methods in Ecology and Evolution, 12(9), 1609–1619.
+manuscript_citation: "Arlé, E., Zizka, A., Keil, P., Winter, M., Essl, F., Knight, T., Weigelt, P., Jiménez‐Muñoz, M., & Meyer, C. (2021). bRacatus: A method to estimate the accuracy and biogeographical status of georeferenced biological data. Methods in Ecology and Evolution, 12(9), 1609–1619."
 manuscript_doi: 10.1111/2041-210X.13629
