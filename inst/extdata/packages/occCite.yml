@@ -1,7 +1,7 @@
 name : occCite
-title: "occCite: Querying and Managing Large Biodiversity Occurrence Datasets"
+title: "Querying and Managing Large Biodiversity Occurrence Datasets"
 version: 0.5.6
-author: "Hannah L. Owens, Cory Merow, Brian Maitner, Jamie M. Kass, Vijay Barve, Robert P. Guralnick"
+author: "Hannah L. Owens, Cory Merow, Brian Maitner, Jamie M. Kass, Vijay Barve, Robert P. Guralnick, Damiano Oldoni for rOpenSci"
 maintainer: "Hannah L. Owens <hannah.owens@gmail.com>"
 cran: yes
 github: https://github.com/ropensci/occCite
