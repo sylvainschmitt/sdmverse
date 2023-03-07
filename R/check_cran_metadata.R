@@ -37,6 +37,7 @@ check_cran_metadata <- function() {
     rename(name = Package, title = Title, version = Version,
            author = Author, maintainer = Maintainer,
            description = Description) %>%
+    mutate(title = gsub("\n", " ", title)) %>%
     mutate(description = gsub("\n    ", " ", description)) %>%
     rowwise() %>%
     mutate(author = paste(format(as.person(author),
