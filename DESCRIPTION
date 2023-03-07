@@ -25,6 +25,7 @@ Imports:
     shiny,
     DT,
     tidyr,
+    stringr,
     tools,
     ggplot2
 Collate: 

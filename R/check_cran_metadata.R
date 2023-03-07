@@ -3,6 +3,7 @@
 #' @importFrom tools CRAN_package_db
 #' @importFrom tibble as_tibble
 #' @importFrom dplyr filter select rename mutate left_join rowwise
+#' @importFrom stringr str_squish
 #' @importFrom tidyr gather
 #' @importFrom utils as.person
 NULL
@@ -38,7 +39,9 @@ check_cran_metadata <- function() {
            author = Author, maintainer = Maintainer,
            description = Description) %>%
     mutate(title = gsub("\n", " ", title)) %>%
-    mutate(description = gsub("\n    ", " ", description)) %>%
+    mutate(title = str_squish(title)) %>%
+    mutate(description = gsub("\n", " ", description)) %>%
+    mutate(description = str_squish(description)) %>%
     rowwise() %>%
     mutate(author = paste(format(as.person(author),
                                  include = c("given", "family")),
