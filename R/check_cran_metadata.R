@@ -3,6 +3,7 @@
 #' @importFrom tools CRAN_package_db
 #' @importFrom tibble as_tibble
 #' @importFrom dplyr filter select rename mutate left_join rowwise
+#' @importFrom stringr str_squish
 #' @importFrom tidyr gather
 #' @importFrom stringr str_squish
 #' @importFrom utils as.person
