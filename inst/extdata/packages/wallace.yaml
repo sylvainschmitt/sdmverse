@@ -3,7 +3,8 @@ title: "A Modular Platform for Reproducible Modeling of Species Niches and Distr
 version: 2.0.3
 author: "Jamie M. Kass, Gonzalo E. Pinilla-Buitrago, Andrea Paz, Bethany A. Johnson, 
 Valentina Grisales-Betancur, Dean Attali, Matthew E. Aiello-Lammens, Cory Merow, 
-Mary E. Blair, Robert P. Anderson"
+Mary E. Blair, Robert P. Anderson, Sarah I. Meenan, Olivier Broennimann, Peter J. Galante, 
+Brian S. Maitner, Hannah L. Owens, Sara Varela, Bruno Vilela, Robert Muscarella"
 maintainer: "Gonzalo E. Pinilla-Buitrago <gpinillabuitrago@gradcenter.cuny.edu>"
 cran: yes
 github: "https://github.com/wallaceEcoMod/wallace"
@@ -14,7 +15,7 @@ occurrence and environmental data to visualizing model predictions on an
 interactive map, thus bundling complex workflows into a single, 
 streamlined interface. An extensive vignette, which guides users through 
 most package functionality can be found on the package's GitHub Pages 
-website <https://wallaceecomod.github.io/wallace/articles/tutorial-v2.html>"
+website: <https://wallaceecomod.github.io/wallace/articles/tutorial-v2.html>"
 occ_acquisition: yes
 occ_cleaning: yes
 data_integration: no
