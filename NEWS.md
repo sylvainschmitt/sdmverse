@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9010
+
+-   adding mod_tuning, update CONTRIBUTING and REVIEWING, add EDITORING
+
 sdmverse 0.1.0.9009
 
 -   plot_table by @jamiemkass with test

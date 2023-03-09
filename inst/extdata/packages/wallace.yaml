@@ -1,9 +1,9 @@
 name : wallace
 title: "A Modular Platform for Reproducible Modeling of Species Niches and Distributions"
 version: 2.0.3
-author: "Jamie M. Kass, Gonzalo E. Pinilla-Buitrago, Andrea Paz, Bethany A. Johnson, 
-Valentina Grisales-Betancur, Dean Attali, Matthew E. Aiello-Lammens, Cory Merow, 
-Mary E. Blair, Robert P. Anderson, Sarah I. Meenan, Olivier Broennimann, Peter J. Galante, 
+author: "Jamie M. Kass, Gonzalo E. Pinilla-Buitrago, Andrea Paz, Bethany A. Johnson,
+Valentina Grisales-Betancur, Dean Attali, Matthew E. Aiello-Lammens, Cory Merow,
+Mary E. Blair, Robert P. Anderson, Sarah I. Meenan, Olivier Broennimann, Peter J. Galante,
 Brian S. Maitner, Hannah L. Owens, Sara Varela, Bruno Vilela, Robert Muscarella"
 maintainer: "Gonzalo E. Pinilla-Buitrago <gpinillabuitrago@gradcenter.cuny.edu>"
 cran: yes
@@ -19,6 +19,7 @@ study_region: yes
 backg_sample: yes
 data_partitioning: yes
 mod_fit: yes
+mod_tuning: no
 mod_ensemble: no
 mod_stack: no
 mod_evaluate: yes

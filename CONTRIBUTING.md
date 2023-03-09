@@ -20,13 +20,13 @@ If you want to contribute, please fork the repository on GitHub.
 Then, online on GitHub, in Rstudio or with your favourite editor, create a YAML file in `inst/extdata/packages/` called `{your_package}.yaml`.
 Copy and fill in the contents of the file [`example.yaml`](https://github.com/sylvainschmitt/sdmverse/blob/main/inst/extdata/packages/example.yaml).
 Details of the various metadata fields are given below.
-Once your file is ready and online on your GitHub fork, open a pull request to contribute to *sdmverse*.
+Once your file is ready and online on your GitHub fork, open a pull request to contribute to *sdmverse* named "`my_package`submission".
 Please provide in your pull request message a quick list
 and if possible a brief description of the functions of your package corresponding to each field for which you have answered yes.
-Please ensure that the GitHub *check-CRAN-metadata* action does not fail.
 You can then ask an editor to start the review process.
 Remember that the review process is voluntary, so try to be understanding with reviewers and editors.
 Once the review process has been successfully completed, we will be happy to include your package in the *sdmverse* to help users discover it.
+In addition, you will be added to the `sdmverse` contributors and we may ask for your help as a reviewer for future submissions.
 
 #### **What?**
 
@@ -51,6 +51,7 @@ If your package is on CRAN, please use exactly the same text in the common field
 - **backg_sample**: Function(s) to sample background/pseudoabsence records (yes/no)
 - **data_partitioning**: Function(s) to partition data for model evaluation (yes/no)
 - **mod_fit**: Function(s) to fit models (yes/no)
+- **mod_tuning**: Function(s) to tune models (yes/no)
 - **mod_ensemble**: Function(s) to generate ensemble models (yes/no)
 - **mod_stack**: Function(s) to stack multiple single-species models to estimate community composition / diversity (yes/no)
 - **mod_evaluate**: Function(s) to evaluate model performance (yes/no)

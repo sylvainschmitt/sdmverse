@@ -17,9 +17,7 @@ For example, take a look at [*SSDM* metadata](https://github.com/sylvainschmitt/
 #### **How?**
 
 If you have agreed to review a contribution, thank you first as this repository could not work without your voluntary work!
-First, make sure the GitHub *check-CRAN-metadata* action does not fail.
-If it does, don't bother reviewing and ask the package maintainer to fix their pull request accordingly.
-Then, in the online Pull Request on GitHub, use the `Add your review` button if you have been designated by the editor.
+In the online Pull Request on GitHub, use the `Add your review` button if you have been designated by the editor.
 Please perform a line-by-line review of the package metadata to be reviewed in `inst/extdata/packages/{the_package}.yaml`.
 Once the line-by-line review is complete, make a decision in the interface (Comment only, Approve, or Request changes) with a message justifying your choice for the editor.
 In particular, we ask you to check that the fields where the package maintainer has answered yes are indeed included in a metadata function of the submitted package.
@@ -49,6 +47,7 @@ If your package is on CRAN, please use exactly the same text in the common field
 - **backg_sample**: Function(s) to sample background/pseudoabsence records (yes/no)
 - **data_partitioning**: Function(s) to partition data for model evaluation (yes/no)
 - **mod_fit**: Function(s) to fit models (yes/no)
+- **mod_tuning**: Function(s) to tune models (yes/no)
 - **mod_ensemble**: Function(s) to generate ensemble models (yes/no)
 - **mod_stack**: Function(s) to stack multiple single-species models to estimate community composition / diversity (yes/no)
 - **mod_evaluate**: Function(s) to evaluate model performance (yes/no)
