@@ -1,6 +1,6 @@
 name : SDMtune
 title: "Species Distribution Model Selection"
-version: 1.2.0
+version: 1.2.1
 author: "Sergio Vignali, Arnaud Barras, Veronika Braunisch, Conservation Biology - University of Bern"
 maintainer: "Sergio Vignali <sergio.vignali@unibe.ch>"
 cran: yes
