@@ -19,7 +19,7 @@ study_region: yes
 backg_sample: yes
 data_partitioning: yes
 mod_fit: yes
-mod_tuning: no
+mod_tuning: yes
 mod_ensemble: no
 mod_stack: no
 mod_evaluate: yes
