@@ -5,7 +5,11 @@
 \title{Prepare sdmverse packages table
 This function prepare sdmverse packages table.}
 \usage{
-prep_table()
+prep_table(where = "online")
+}
+\arguments{
+\item{where}{char. Where to download the packages metadata,
+either 'locally' with the package or 'online' in the GitHub repository.}
 }
 \value{
 sdmverse packages metadata.

@@ -7,6 +7,9 @@ NULL
 #
 #' This function prepare sdmverse packages table.
 #'
+#' @param where char. Where to download the packages metadata,
+#'  either 'locally' with the package or 'online' in the GitHub repository.
+#'
 #' @return sdmverse packages metadata.
 #'
 #' @examples
@@ -16,9 +19,9 @@ NULL
 #'
 #' @export
 #'
-prep_table <- function() {
-  author <- cran <- github <- description <- NULL
-  list_packages() %>%
-    select(-author, -cran, -github, -description) %>%
+prep_table <- function(where = "online") {
+  author <- cran <- github <- description <- manuscript_citation <- NULL
+  list_packages(where = "online") %>%
+    select(-author, -cran, -github, -description, -manuscript_citation) %>%
     return()
 }
