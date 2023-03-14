@@ -8,19 +8,19 @@
 
 #### **Why?**
 
-*sdmverse* is a collaborative metapackage for listing all the metadata of the Species Distribution Modelling (SDM) packages
-Thus, *sdmverse* depends on the contribution and reviews of SDM packages maintainers to exist.
+*sdmverse* is a collaborative metapackage that catalogues metadata for R packages that focus on Species Distribution Modeling (SDM). This package depends on the contributions, reviews, and edits of SDM package maintainers.
 
-The package metadata is located in independent YAML files in `inst/extdata/packages/`.
+Metadata for packages are found in YAML files located in `inst/extdata/packages/`.
 For example, take a look at [*SSDM* metadata](https://github.com/sylvainschmitt/sdmverse/blob/main/inst/extdata/packages/SSDM.yaml).
 
 #### **How?**
 
-If you have agreed to review a contribution, thank you first as this repository could not work without your voluntary work!
-In the online Pull Request on GitHub, use the `Add your review` button if you have been designated by the editor.
+If you have agreed to review a contribution, we'd like to first thank you, as this repository could not function without your help!
+
+In the online Pull Request form on GitHub, use the `Add your review` button if you have been designated by the editor.
 Please perform a line-by-line review of the package metadata to be reviewed in `inst/extdata/packages/{the_package}.yaml`.
-Once the line-by-line review is complete, make a decision in the interface (Comment only, Approve, or Request changes) with a message justifying your choice for the editor.
-In particular, we ask you to check that the fields where the package maintainer has answered yes are indeed included in a metadata function of the submitted package.
+Once this review is complete, make a decision in the interface (Comment only, Approve, or Request changes) with a message justifying your choice for the editor.
+In particular, we ask you to confirm that the fields with values of "yes" designated by the package maintainer are indeed reflective of the submitted package's functionality.
 If necessary, you can use the interface to request specific details from the package maintainer.
 Details of the various metadata fields are given below.
 
@@ -47,7 +47,7 @@ If your package is on CRAN, please use exactly the same text in the common field
 - **backg_sample**: Function(s) to sample background/pseudoabsence records (yes/no)
 - **data_partitioning**: Function(s) to partition data for model evaluation (yes/no)
 - **mod_fit**: Function(s) to fit models (yes/no)
-- **mod_tuning**: Function(s) to tune models (yes/no)
+- **mod_tuning**: Function(s) to tune models (iterate model fitting over different hyperparameter/variable combinations; yes/no)
 - **mod_ensemble**: Function(s) to generate ensemble models (yes/no)
 - **mod_stack**: Function(s) to stack multiple single-species models to estimate community composition / diversity (yes/no)
 - **mod_evaluate**: Function(s) to evaluate model performance (yes/no)
