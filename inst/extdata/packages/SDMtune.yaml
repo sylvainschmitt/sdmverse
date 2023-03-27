@@ -4,7 +4,7 @@ version: 1.2.1
 author: "Sergio Vignali, Arnaud Barras, Veronika Braunisch, Conservation Biology - University of Bern"
 maintainer: "Sergio Vignali <sergio.vignali@unibe.ch>"
 cran: yes
-github: https://github.com/ConsBiol-unibern/SDMtune
+repository: https://github.com/ConsBiol-unibern/SDMtune
 description: "User-friendly framework that enables the training and the
     evaluation of species distribution models (SDMs). The package implements
     functions for data driven variable selection and model tuning and includes

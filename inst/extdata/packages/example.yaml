@@ -4,7 +4,7 @@ version: "Version of package (same as CRAN)"
 author: "Author(s) of package (same as CRAN)"
 maintainer: "Maintainer of package (same as CRAN)"
 cran: no
-github: "GitHub URL of package (if none, leave blank)"
+repository: "GitHub URL of package (if none, leave blank)"
 description: "Description of package (same as DESCRIPTION file and on CRAN)"
 occ_acquisition: no
 occ_cleaning: no

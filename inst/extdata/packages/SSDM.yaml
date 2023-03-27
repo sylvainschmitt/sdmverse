@@ -4,7 +4,7 @@ version: 0.2.8
 author: "Sylvain Schmitt, Robin Pouteau, Dimitri Justeau, Florian de Boissieu, Lukas Baumbach, Philippe Birnbaum"
 maintainer: "Sylvain Schmitt <sylvain.m.schmitt@gmail.com>"
 cran: yes
-github: https://github.com/sylvainschmitt/SSDM
+repository: https://github.com/sylvainschmitt/SSDM
 description: "Allows to map species richness and endemism based on stacked
     species distribution models (SSDM). Individuals SDMs can be created using a
     single or multiple algorithms (ensemble SDMs). For each species, an SDM can
