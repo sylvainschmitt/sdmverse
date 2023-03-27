@@ -16,7 +16,7 @@ study_region: no
 backg_sample: yes
 data_partitioning: no
 mod_fit: yes
-mod_tuning: no
+mod_tuning: yes
 mod_ensemble: yes
 mod_stack: yes
 mod_evaluate: no
@@ -24,7 +24,7 @@ mod_multispecies: yes
 mod_mechanistic: no
 pred_general: yes
 pred_extrapolation: no
-pred_inspect: yes
+pred_inspect: no
 post_processing: yes
 gui: no
 metadata: no

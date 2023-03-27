@@ -9,7 +9,7 @@ description: "This package is a wrapper for the `dbarts` package for Bayesian ad
 occ_acquisition: no
 occ_cleaning: no
 data_integration: no
-env_collinearity: yes
+env_collinearity: no
 env_process: no
 bias: no
 study_region: no
