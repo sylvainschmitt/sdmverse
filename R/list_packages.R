@@ -22,7 +22,7 @@ NULL
 #' @export
 #'
 list_packages <- function(where = "online") {
-  name <- NULL
+  name <- version <- NULL
   if (!(where %in% c("locally", "online"))) {
     stop("The where argument should be 'locally' or 'online'.")
   }
@@ -43,6 +43,7 @@ list_packages <- function(where = "online") {
   }
   lapply(packages, read_yaml) %>%
     lapply(as_tibble) %>%
+    lapply(function(x) mutate(x, version = as.character(version))) %>%
     bind_rows() %>%
     filter(name != "Name of package (same as CRAN)") %>%
     return()
