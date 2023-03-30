@@ -1,14 +1,14 @@
 name: biomod2
 title: Ensemble Platform for Species Distribution Modeling
-version: 4.2-3
-author: "Wilfried Thuiller, Damien Georges, Maya Guéguen, Rémi Patin,
-Robin Engler, Frank Breiner, Bruno Lafourcade"
-maintainer: Maya Guéguen <maya.gueguen@univ-grenoble-alpes.fr>
+version: 4.2-2
+author: "Wilfried Thuiller, Damien Georges, Maya Gueguen,
+Robin Engler, Frank Breiner, Bruno Lafourcade, Remi Patin"
+maintainer: Maya Gueguen <maya.gueguen@univ-grenoble-alpes.fr>
 cran: yes
 repository: https://github.com/biomodhub/biomod2
 description: "Functions for species distribution modeling, calibration
 and evaluation, ensemble of models, ensemble forecasting and visualization.
-The package permits to run consistently up to 11 single models on a
+The package permits to run consistently up to 10 single models on a
 presence/absences (resp presences/pseudo-absences) dataset and to combine
 them in ensemble models and ensemble projections. Some bench of other
 evaluation and visualisation tools are also available within the package."
