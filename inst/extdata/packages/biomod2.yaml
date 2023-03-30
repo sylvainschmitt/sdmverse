@@ -18,7 +18,7 @@ data_integration: no
 env_collinearity: no
 env_process: no
 bias: yes
-study_region:
+study_region: yes
 backg_sample: yes
 data_partitioning: yes
 mod_fit: yes
