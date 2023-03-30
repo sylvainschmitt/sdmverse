@@ -1,0 +1,38 @@
+name: biomod2
+title: Ensemble Platform for Species Distribution Modeling
+version: 4.2-3
+author: "Wilfried Thuiller, Damien Georges, Maya Guéguen, Rémi Patin,
+Robin Engler, Frank Breiner, Bruno Lafourcade"
+maintainer: Maya Guéguen <maya.gueguen@univ-grenoble-alpes.fr>
+cran: yes
+repository: https://github.com/biomodhub/biomod2
+description: "Functions for species distribution modeling, calibration
+and evaluation, ensemble of models, ensemble forecasting and visualization.
+The package permits to run consistently up to 10 single models on a
+presence/absences (resp presences/pseudo-absences) dataset and to combine
+them in ensemble models and ensemble projections. Some bench of other
+evaluation and visualisation tools are also available within the package."
+occ_acquisition: no
+occ_cleaning: no
+data_integration: no
+env_collinearity: no
+env_process: no
+bias: yes
+study_region:
+backg_sample: yes
+data_partitioning: yes
+mod_fit: yes
+mod_tuning: yes
+mod_ensemble: yes
+mod_stack: no
+mod_evaluate: yes
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: yes
+pred_extrapolation: yes
+pred_inspect: yes
+post_processing: no
+gui: no
+metadata: no
+manuscript_citation: "Thuiller, W., Lafourcade, B., Engler, R. and Araújo, M.B. (2009), BIOMOD – a platform for ensemble forecasting of species distributions. Ecography, 32: 369-373."
+manuscript_doi: "10.1111/j.1600-0587.2008.05742.x"
