@@ -1,0 +1,32 @@
+name : "Name of package (same as CRAN)"
+title: "Title of package (same as CRAN)"
+version: "Version of package (same as CRAN)"
+author: "Author(s) of package (same as CRAN)"
+maintainer: "Maintainer of package (same as CRAN)"
+cran: no
+repository: "GitHub URL of package (if none, leave blank)"
+description: "Description of package (same as DESCRIPTION file and on CRAN)"
+occ_acquisition: no
+occ_cleaning: no
+data_integration: no
+env_collinearity: no
+env_process: no
+bias: no
+study_region: no
+backg_sample: no
+data_partitioning: no
+mod_fit: no
+mod_tuning: no
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: no
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: no
+pred_extrapolation: no
+pred_inspect: no
+post_processing: no
+gui: no
+metadata: no
+manuscript_citation: "Full citation of associated manuscript(s)  (if none, leave blank; if multiple, separate with semicolons)"
+manuscript_doi: "DOI for manuscripts in previous field (if multiple, separate with semicolons)"
