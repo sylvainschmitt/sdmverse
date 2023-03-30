@@ -8,7 +8,7 @@ cran: yes
 repository: https://github.com/biomodhub/biomod2
 description: "Functions for species distribution modeling, calibration
 and evaluation, ensemble of models, ensemble forecasting and visualization.
-The package permits to run consistently up to 10 single models on a
+The package permits to run consistently up to 11 single models on a
 presence/absences (resp presences/pseudo-absences) dataset and to combine
 them in ensemble models and ensemble projections. Some bench of other
 evaluation and visualisation tools are also available within the package."
@@ -18,7 +18,7 @@ data_integration: no
 env_collinearity: no
 env_process: no
 bias: yes
-study_region: yes
+study_region: no
 backg_sample: yes
 data_partitioning: yes
 mod_fit: yes
@@ -31,7 +31,7 @@ mod_mechanistic: no
 pred_general: yes
 pred_extrapolation: yes
 pred_inspect: yes
-post_processing: no
+post_processing: yes
 gui: no
 metadata: no
 manuscript_citation: "Thuiller, W., Lafourcade, B., Engler, R. and Araújo, M.B. (2009), BIOMOD – a platform for ensemble forecasting of species distributions. Ecography, 32: 369-373."
