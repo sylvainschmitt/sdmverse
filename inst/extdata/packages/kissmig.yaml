@@ -1,0 +1,32 @@
+name: kissmig
+title: "a Keep It Simple Species Migration Model"
+version: 1.0-4
+author: "Michael P. Nobis, Signe Normand"
+maintainer: "Michael P. Nobis <michael.nobis@wsl.ch>"
+cran: yes
+repository: ""
+description: "Simulating species migration and range dynamics under stable or changing environmental conditions based on a simple, raster-based, stochastic migration model. Providing accessibility from an origin or previous distribution for niche-based species distribution models. Nobis & Normand (2014) <doi:10.1111/ecog.00930>."
+occ_acquisition: no
+occ_cleaning: no
+data_integration: no
+env_collinearity: no
+env_process: no
+bias: no
+study_region: no
+backg_sample: no
+data_partitioning: no
+mod_fit: no
+mod_tuning: no
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: no
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: no
+pred_extrapolation: no
+pred_inspect: no
+post_processing: yes
+gui: no
+metadata: no
+manuscript_citation: "Nobis, M.P., Normand, S. (2014). KISSMig – a simple model for R to account for limited migration in analyses of species distributions. Ecography 37: 1282-1287."
+manuscript_doi: "10.1111/ecog.00930"
