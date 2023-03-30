@@ -1,0 +1,32 @@
+name : modEvA
+title: "Model Evaluation and Analysis"
+version: 3.9
+author: "Barbosa A.M., Brown J.A., Jimenez-Valverde A., Real R."
+maintainer: "A. Marcia Barbosa <ana.marcia.barbosa@gmail.com>"
+cran: yes
+github: https://modeva.r-forge.r-project.org/
+description: "Analyses species distribution models and evaluates their performance. It includes functions for performing variation partitioning, calculating several measures of model discrimination and calibration, optimizing prediction thresholds based on a number of criteria, performing multivariate environmental similarity surface (MESS) analysis, and displaying various analytical plots. Initially described in Barbosa et al. (2013) <doi:10.1111/ddi.12100>."
+occ_acquisition: no
+occ_cleaning: no
+data_integration: no
+env_collinearity: no
+env_process: no
+bias: no
+study_region: no
+backg_sample: no
+data_partitioning: no
+mod_fit: no
+mod_tuning: no
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: yes
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: no
+pred_extrapolation: yes
+pred_inspect: yes
+post_processing: no
+gui: no
+metadata: no
+manuscript_citation: "Barbosa, A.M., Real, R., Munoz, A.R. & Brown, J.A. (2013). New measures for assessing model equilibrium and prediction mismatch in species distribution models. Diversity and Distributions, 19(10), 1333-1338."
+manuscript_doi: "10.1111/ddi.12100"

@@ -1,0 +1,32 @@
+name : fuzzySim
+title: "Fuzzy Similarity in Species Distributions"
+version: 4.9.8
+author: "Barbosa A.M."
+maintainer: "A. Marcia Barbosa <ana.marcia.barbosa@gmail.com>"
+cran: yes
+github: https://fuzzysim.r-forge.r-project.org/
+description: "Functions to compute fuzzy versions of species occurrence patterns based on presence-absence data (including inverse distance interpolation, trend surface analysis, and prevalence-independent favourability obtained from probability of presence), as well as pair-wise fuzzy similarity (based on fuzzy logic versions of commonly used similarity indices) among those occurrence patterns. Includes also functions for model consensus and comparison (overlap and fuzzy similarity, loss or gain), and for data preparation, such as obtaining unique abbreviations of species names, cleaning and gridding (thinning) point occurrence data onto raster maps, selecting absences under specified criteria, converting species lists (long format) to presence-absence tables (wide format), transposing part of a data frame, selecting relevant variables for models, assessing the false discovery rate, or analysing and dealing with multicollinearity. Initially described in Barbosa (2015) <doi:10.1111/2041-210X.12372>."
+occ_acquisition: no
+occ_cleaning: yes
+data_integration: no
+env_collinearity: yes
+env_process: no
+bias: yes
+study_region: no
+backg_sample: yes
+data_partitioning: no
+mod_fit: yes
+mod_tuning: yes
+mod_ensemble: yes
+mod_stack: yes
+mod_evaluate: no
+mod_multispecies: yes
+mod_mechanistic: no
+pred_general: yes
+pred_extrapolation: no
+pred_inspect: no
+post_processing: yes
+gui: no
+metadata: no
+manuscript_citation: "Barbosa, A.M., Real, R., Munoz, A.R. & Brown, J.A. (2013). New measures for assessing model equilibrium and prediction mismatch in species distribution models. Diversity and Distributions, 19(10), 1333-1338."
+manuscript_doi: "10.1111/ddi.12100"
