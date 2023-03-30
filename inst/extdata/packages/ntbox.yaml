@@ -12,7 +12,7 @@ description: "NicheToolbox is an R package with a friendly Graphical User Interf
              niche models and estimate the species distributions."
 occ_acquisition: yes
 occ_cleaning: yes
-data_integration: yes
+data_integration: no
 env_collinearity: yes
 env_process: yes
 bias: yes
