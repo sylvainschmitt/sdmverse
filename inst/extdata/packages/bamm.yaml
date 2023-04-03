@@ -1,7 +1,7 @@
 name : bamm
 title: "Species Distribution Models as a Function of Biotic, Abiotic and
        Movement Factors (BAM)"
-version: 2.0.4
+version: 0.4.3
 author: "Luis Osorio-Olvera, Jorge Soberón"
 maintainer: "Luis Osorio-Olvera <luismurao@gmail.com>"
 cran: yes
