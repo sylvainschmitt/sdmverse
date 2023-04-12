@@ -1,6 +1,6 @@
 name : voluModel
 title: "Modeling Species Distributions in Three Dimensions"
-version: 0.1.9
+version: 0.2.0
 author: "Hannah L. Owens, Carsten Rahbek"
 maintainer: "Hannah L. Owens <hannah.owens@gmail.com>"
 cran: yes
