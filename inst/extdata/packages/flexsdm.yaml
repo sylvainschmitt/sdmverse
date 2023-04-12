@@ -9,13 +9,13 @@ description: "Assist in the construction of flexible
       species distribution workflow by incorporating
       comprehensive tools for data preparation, model
       fitting, prediction, evaluation, and model
-      post-processing"
+      post-processing."
 occ_acquisition: no
 occ_cleaning: yes
 data_integration: no
 env_collinearity: yes
 env_process: no
-bias: yes
+bias: no
 study_region: yes
 backg_sample: yes
 data_partitioning: yes
