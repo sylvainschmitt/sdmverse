@@ -14,7 +14,7 @@ occ_acquisition: no
 occ_cleaning: no
 data_integration: no
 env_collinearity: no
-env_process: yes
+env_process: no
 bias: no
 study_region: no
 backg_sample: no
@@ -30,7 +30,7 @@ pred_general: no
 pred_extrapolation: no
 pred_inspect: no
 post_processing: no
-gui: yes
+gui: no
 metadata: no
 manuscript_citation: "Valavi R, Elith J, Lahoz-Monfort JJ, Guillera-Arroita G. (2019). blockCV: An R package for generating spatially or environmentally separated folds for k-fold cross-validation of species distribution models. Methods in Ecology and Evolution 10(2) 225-232."
 manuscript_doi: "10.1111/2041-210X.13107"
