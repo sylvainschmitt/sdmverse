@@ -26,7 +26,7 @@ pred_general: no
 pred_extrapolation: no
 pred_inspect: no
 post_processing: no
-gui: yes
-metadata: yes
+gui: no
+metadata: no
 manuscript_citation: "Zizka A, Antonelli A & Silvestro D (2021). sampbias, a method for quantifying geographic sampling biases in species distribution data. Ecography 44(1):25-32."
 manuscript_doi: "https://doi.org/10.1111/ecog.05102"
