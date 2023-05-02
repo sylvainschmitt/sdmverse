@@ -1,3 +1,8 @@
+sdmverse 0.1.0.9013
+
+-   new function template_from_cran() to help submissions
+-   adding dismo, dsmextra, MinBAR and rgbif
+
 sdmverse 0.1.0.9012
 
 -   github to repository
