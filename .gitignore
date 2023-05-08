@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+
+inst/extdata/packages/.DS_Store

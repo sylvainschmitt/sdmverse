@@ -1,0 +1,32 @@
+name: ENMTools
+title: "Analysis of Niche Evolution using Niche and Distribution Models"
+version: 1.1.1
+author: "Dan Warren and Russell Dunnage"
+maintainer: "Dan Warren <dan.l.warren@gmail.com>"
+cran: yes
+repository: https://github.com/danlwarren/ENMTools
+description: "Constructing niche models and analyzing patterns of niche evolution.  Acts as an interface for many popular modeling algorithms, and allows users to conduct Monte Carlo tests to address basic questions in evolutionary ecology and biogeography."
+occ_acquisition: no
+occ_cleaning: yes
+data_integration: no
+env_collinearity: yes
+env_process: no
+bias: yes
+study_region: yes
+backg_sample: yes
+data_partitioning: yes
+mod_fit: yes
+mod_tuning: yes
+mod_ensemble: yes
+mod_stack: no
+mod_evaluate: yes
+mod_multispecies: yes
+mod_mechanistic: no
+pred_general: yes
+pred_extrapolation: yes
+pred_inspect: yes
+post_processing: yes
+gui: no
+metadata: no
+manuscript_citation: "Warren, D.L., N.J. Matzke, M. Cardillo, J.B. Baumgartner, L.J. Beaumont, M. Turelli, R.E. Glor, N.A. Huron, M. Simões, T.L. Iglesias, J.C. Piquet, and R. Dinnage. 2021. ENMTools 1.0: an R package for comparative ecological biogeography. Ecography 44(4): 504-511."
+manuscript_doi: "10.1111/ecog.05485"
