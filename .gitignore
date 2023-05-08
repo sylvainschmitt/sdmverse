@@ -4,3 +4,9 @@
 .Ruserdata
 
 inst/extdata/packages/.DS_Store
+
+inst/.DS_Store
+
+inst/extdata/.DS_Store
+
+.DS_Store
