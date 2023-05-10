@@ -27,7 +27,8 @@ launch_app <- function(port = getOption("shiny.port"),
   app_dir <- system.file("app", package = "sdmverse")
   if (app_dir == "") {
     stop("Could not find shiny directory. Try re-installing `ssdmverse`.",
-         call. = FALSE)
+      call. = FALSE
+    )
   }
   runApp(app_dir, display.mode = "normal", port = port, host = host)
 }

@@ -4,7 +4,7 @@ version: 1.0.0
 author: "André F.A. Andrade, Santiago J.E. Velazco, Paulo De Marco"
 maintainer: "André F.A. Andrade <andrefaandrade@gmail.com>"
 cran: no
-github: https://andrefaa.github.io/ENMTML
+repository: https://andrefaa.github.io/ENMTML
 description: "ENMTML is a package to create and
       process Ecological Niche Models. The main
       purpose of this package is to assemble all this
