@@ -3,7 +3,7 @@ title: "Analysis of Niche Evolution using Niche and Distribution Models"
 version: 1.1.1
 author: "Dan Warren, Russell Dunnage"
 maintainer: "Dan Warren <dan.l.warren@gmail.com>"
-cran: yes
+cran: no
 repository: https://github.com/danlwarren/ENMTools
 description: "Constructing niche models and analyzing patterns of niche evolution.  Acts as an interface for many popular modeling algorithms, and allows users to conduct Monte Carlo tests to address basic questions in evolutionary ecology and biogeography."
 occ_acquisition: no
