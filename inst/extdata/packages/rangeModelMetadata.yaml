@@ -4,7 +4,7 @@ version: 0.1.4
 author: "Cory Merow, Brian Maitner, Hannah L. Owens, Jamie M. Kass,
 Brian Enquist, Rob Guralnik, Damaris Zurell, Christian Koenig"
 maintainer: Cory Merow <cory.merow@gmail.com>
-cran: yes
+cran: no
 repository: https://github.com/cmerow/rangeModelMetadata
 description: "Range Modeling Metadata Standards (RMMS) address three challenges:
   they (i) are designed for convenience to encourage use, (ii) accommodate a wide
