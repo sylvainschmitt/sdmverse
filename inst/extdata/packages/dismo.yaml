@@ -7,7 +7,7 @@ cran: yes
 repository: ""
 description: Methods for species distribution modeling, that is, predicting the environmental
   similarity of any site to that of the locations of known occurrences of a species.
-occ_acquisition: no
+occ_acquisition: yes
 occ_cleaning: no
 data_integration: no
 env_collinearity: no
