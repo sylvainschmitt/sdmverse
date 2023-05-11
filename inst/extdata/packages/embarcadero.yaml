@@ -4,7 +4,7 @@ version: 1.1
 author: "Carlson C.J."
 maintainer: "Carlson C.J."
 cran: no
-github: https://github.com/cjcarlson/embarcadero
+repository: https://github.com/cjcarlson/embarcadero
 description: "This package is a wrapper for the `dbarts` package for Bayesian additive regression trees, which is designed to make it easier to do species distribution models with BART."
 occ_acquisition: no
 occ_cleaning: no

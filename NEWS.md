@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9014
+
+-   cleaned github field to repository and hyperlinked name with repository in the app
+
 sdmverse 0.1.0.9013
 
 -   20220510 fixes

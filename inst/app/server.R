@@ -10,6 +10,13 @@ shinyServer(function(input, output) {
   tab <- reactive(
     {
       packages %>%
+        mutate(name = ifelse(
+          !is.na(repository),
+          paste0("<a href=", repository, ">", name, "</a>"),
+          name
+        )) %>%
+        select(-repository) %>%
+
         mutate(manuscript_doi = paste0("https://www.doi.org/",
                                        manuscript_doi)) %>%
         mutate(manuscript_doi =  paste0("<a href='", manuscript_doi, "'>",

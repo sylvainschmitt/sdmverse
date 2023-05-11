@@ -4,7 +4,7 @@ version: 0.5.6
 author: "Hannah L. Owens, Cory Merow, Brian Maitner, Jamie M. Kass, Vijay Barve, Robert P. Guralnick, Damiano Oldoni for rOpenSci, see)"
 maintainer: "Hannah L. Owens <hannah.owens@gmail.com>"
 cran: yes
-github: https://github.com/ropensci/occCite
+repository: https://github.com/ropensci/occCite
 description: "Facilitates the gathering of biodiversity occurrence data from disparate sources. Metadata is managed throughout the process to facilitate reporting and enhanced ability to repeat analyses."
 occ_acquisition: yes
 occ_cleaning: no
