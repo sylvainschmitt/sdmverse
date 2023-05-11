@@ -1,0 +1,42 @@
+name: rangeModelMetadata
+title: Provides Templates for Metadata Files Associated with Species Range Models
+version: 0.1.4
+author: "Cory Merow, Brian Maitner, Hannah L. Owens, Jamie M. Kass,
+Brian Enquist, Rob Guralnik, Damaris Zurell, Christian Koenig"
+maintainer: Cory Merow <cory.merow@gmail.com>
+cran: no
+repository: https://github.com/cmerow/rangeModelMetadata
+description: "Range Modeling Metadata Standards (RMMS) address three challenges:
+  they (i) are designed for convenience to encourage use, (ii) accommodate a wide
+  variety of applications, and (iii) are extensible to allow the community of range
+  modelers to steer it as needed. RMMS are based on a data dictionary that specifies
+  a hierarchical structure to catalog different aspects of the range modeling process.
+  The dictionary balances a constrained, minimalist vocabulary to improve
+  standardization with flexibility for users to provide their own values.
+  Merow et al. (2019) <DOI:10.1111/geb.12993> describe the standards in
+  more detail. Note that users who prefer to use the R package 'ecospat' can obtain it from
+  <https://github.com/ecospat/ecospat>."
+occ_acquisition: no
+occ_cleaning: no
+data_integration: no
+env_collinearity: no
+env_process: no
+bias: no
+study_region: no
+backg_sample: no
+data_partitioning: no
+mod_fit: no
+mod_tuning: no
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: no
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: no
+pred_extrapolation: yes
+pred_inspect: no
+post_processing: no
+gui: yes
+metadata: yes
+manuscript_citation: "Merow, C., Maitner, B. S., Owens, H. L., Kass, J. M., Enquist, B. J., Jetz, W., & Guralnick, R. (2019). Species' range model metadata standards: RMMS. Global Ecology and Biogeography, 28(12), 1912-1924."
+manuscript_doi: "10.1111/geb.12993"
