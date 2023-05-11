@@ -4,7 +4,10 @@ sdmverse 0.1.0.9014
 
 sdmverse 0.1.0.9013
 
+-   new function template_from_cran() to help submissions
+-   adding dismo, dsmextra, MinBAR and rgbif
 -   20220510 fixes
+
 
 sdmverse 0.1.0.9012
 
