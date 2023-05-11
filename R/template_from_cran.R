@@ -27,9 +27,10 @@ NULL
 #' @export
 #'
 template_from_cran <- function(name,
-                               path = file.path("inst", "extdata",
-                                                "packages")) {
-
+                               path = file.path(
+                                 "inst", "extdata",
+                                 "packages"
+                               )) {
   title <- author <- NULL
   description <- NULL
   Package <- Title <- Version <- Author <- Maintainer <- NULL # nolint
@@ -38,22 +39,31 @@ template_from_cran <- function(name,
   cran_db <- CRAN_package_db()
   cran <- as_tibble(cran_db) %>%
     filter(Package == name) %>%
-    select(Package, Title, Version, Author, Maintainer,
-           Description) %>%
-    rename(name = Package, title = Title, version = Version,
-           author = Author, maintainer = Maintainer,
-           description = Description) %>%
+    select(
+      Package, Title, Version, Author, Maintainer,
+      Description
+    ) %>%
+    rename(
+      name = Package, title = Title, version = Version,
+      author = Author, maintainer = Maintainer,
+      description = Description
+    ) %>%
     mutate(title = gsub("\n", " ", title)) %>%
     mutate(title = str_squish(title)) %>%
     mutate(description = gsub("\n", " ", description)) %>%
     mutate(description = str_squish(description)) %>%
     rowwise() %>%
-    mutate(author = paste(format(as.person(author),
-                                 include = c("given", "family")),
-                          collapse = ", "))
+    mutate(author = paste(
+      format(as.person(author),
+        include = c("given", "family")
+      ),
+      collapse = ", "
+    ))
 
-  file <- read_yaml(file.path(system.file(package = "sdmverse"),
-                              "extdata", "packages", "example.yaml"))
+  file <- read_yaml(file.path(
+    system.file(package = "sdmverse"),
+    "extdata", "packages", "example.yaml"
+  ))
   file$name <- cran$name
   file$title <- cran$title
   file$version <- cran$version
@@ -61,9 +71,12 @@ template_from_cran <- function(name,
   file$maintainer <- cran$maintainer
   file$cran <- TRUE
   file$description <- cran$description
-  if(!is.null(path))
-    write_yaml(file,
-               file.path(path, paste0(name, ".yaml")))
-  if(is.null(path))
+  if (!is.null(path)) {
+    write_yaml(
+      file,
+      file.path(path, paste0(name, ".yaml"))
+    )
+  } else {
     return(TRUE)
+  }
 }

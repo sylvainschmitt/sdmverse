@@ -34,19 +34,26 @@ check_cran_metadata <- function() {
   cran_db <- CRAN_package_db()
   cran <- as_tibble(cran_db) %>%
     filter(Package %in% packages$name) %>%
-    select(Package, Title, Version, Author, Maintainer,
-           Description) %>%
-    rename(name = Package, title = Title, version = Version,
-           author = Author, maintainer = Maintainer,
-           description = Description) %>%
+    select(
+      Package, Title, Version, Author, Maintainer,
+      Description
+    ) %>%
+    rename(
+      name = Package, title = Title, version = Version,
+      author = Author, maintainer = Maintainer,
+      description = Description
+    ) %>%
     mutate(title = gsub("\n", " ", title)) %>%
     mutate(title = str_squish(title)) %>%
     mutate(description = gsub("\n", " ", description)) %>%
     mutate(description = str_squish(description)) %>%
     rowwise() %>%
-    mutate(author = paste(format(as.person(author),
-                                 include = c("given", "family")),
-                          collapse = ", "))
+    mutate(author = paste(
+      format(as.person(author),
+        include = c("given", "family")
+      ),
+      collapse = ", "
+    ))
   packages <- packages %>%
     gather("variable", "value_sdmverse", -name)
   cran <- cran %>%
@@ -57,12 +64,14 @@ check_cran_metadata <- function() {
   if (nrow(fails) > 0) {
     message <- "\n"
     for (l in seq_len(nrow(fails))) {
-      message <- paste0(message,
-                        "-For package ", fails[l, ]$name, ", ",
-                        fails[l, ]$variable, " is defined as '",
-                        fails[l, ]$value_sdmverse,
-                        "' but should be defined as '", fails[l, ]$value_cran,
-                        "' according to CRAN.\n")
+      message <- paste0(
+        message,
+        "-For package ", fails[l, ]$name, ", ",
+        fails[l, ]$variable, " is defined as '",
+        fails[l, ]$value_sdmverse,
+        "' but should be defined as '", fails[l, ]$value_cran,
+        "' according to CRAN.\n"
+      )
     }
     stop(message)
   }
