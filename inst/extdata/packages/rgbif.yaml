@@ -14,7 +14,7 @@ description: A programmatic interface to the Web Service methods provided by the
   records, and using the GBIF tile map service to make rasters summarizing huge amounts
   of data.
 occ_acquisition: yes
-occ_cleaning: no
+occ_cleaning: yes
 data_integration: no
 env_collinearity: no
 env_process: no
