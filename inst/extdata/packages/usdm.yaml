@@ -1,0 +1,31 @@
+name : "usdm"
+title: "Uncertainty Analysis for Species Distribution Modelling"
+version: 1.1.19
+author: "Babak Naimi"
+maintainer: "Babak Naimi <naimi.b@gmail.com>"
+cran: yes
+repository: https://github.com/babaknaimi/usdm
+description: "A framework aims to provide methods and tools for assessing the impact of different sources of uncertainties (e.g.positional uncertainty) on performance of species distribution models (SDMs)."
+occ_acquisition: no
+occ_cleaning: no
+data_integration: yes
+env_collinearity: yes
+env_process: yes
+bias: no
+study_region: no
+backg_sample: no
+data_partitioning: no
+mod_fit: no
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: no
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: no
+pred_extrapolation: no
+pred_inspect: no
+post_processing: yes
+gui: no
+metadata: no
+manuscript_citation: "Naimi, B., Hamm, N.A.S., Groen, T.A., Skidmore, A.K., and Toxopeus, A.G. (2014) Where is positional uncertainty a problem for species distribution modelling?, Ecography 37 (2): 191-203."
+manuscript_doi: https://doi.org/10.1111/j.1600-0587.2013.00205.x
