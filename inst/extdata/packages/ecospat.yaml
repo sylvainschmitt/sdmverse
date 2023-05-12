@@ -1,15 +1,15 @@
 name: ecospat
-title: "ecospat: Spatial Ecology Miscellaneous Methods"
+title: "Spatial Ecology Miscellaneous Methods"
 version: 3.5
 author: "Olivier Broennimann, Valeria Di Cola, Blaise Petitpierre, Frank Breiner, Daniel Scherrer, Manuela D`Amen, Christophe Randin, Robin Engler, Wim Hordijk, Heidi Mod, 
 Julien Pottier, Mirko Di Febbraro, Loic Pellissier, Dorothea Pio, Ruben Garcia Mateo, Anne Dubuis, Luigi Maiorano, Achilleas Psomas, Charlotte Ndiribe, Nicolas Salamin, 
 Niklaus Zimmermann, Flavien Collart, Antoine Guisan"
-maintainer: Olivier Broennimann <olivier.broennimann at unil.ch>
+maintainer: Olivier Broennimann olivier.broennimann@unil.ch
 cran: yes
 repository: https://github.com/ecospat/ecospat
 description: "Collection of R functions and data sets for the support of spatial ecology analyses with a focus on pre, core and post modelling analyses of species distribution, 
 niche quantification and community assembly. Written by current and former members and collaborators of the ecospat group of Antoine Guisan, Department of Ecology and Evolution (DEE) 
-and Institute of Earth Surface Dynamics (IDYST), University of Lausanne, Switzerland."
+and Institute of Earth Surface Dynamics (IDYST), University of Lausanne, Switzerland. Read Di Cola et al. (2016) <doi:10.1111/ecog.02671> for details."
 occ_acquisition: no
 occ_cleaning: no
 data_integration: no
