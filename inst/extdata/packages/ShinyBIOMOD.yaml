@@ -34,5 +34,5 @@ pred_inspect: yes
 post_processing: no
 gui: yes
 metadata: no
-manuscript_citation:
-manuscript_doi:
+manuscript_citation: ""
+manuscript_doi: ""
