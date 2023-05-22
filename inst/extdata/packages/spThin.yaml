@@ -3,7 +3,7 @@ title: "Functions for Spatial Thinning of Species Occurrence Records for Use in 
 version: 0.2.0
 author: "Matthew E. Aiello-Lammens, Robert A. Boria, Aleksandar Radosavljevic, 
 Bruno Vilela, Robert P. Anderson, Robert Bjornson, Steve Weston"
-maintainer: "Matthew E. Aiello-Lammens <matt.lammens at gmail.com>"
+maintainer: "Matthew E. Aiello-Lammens <matt.lammens@gmail.com>"
 cran: yes
 repository: "https://github.com/mlammens/spThin"
 description: "A set of functions that can be used to spatially thin species 
