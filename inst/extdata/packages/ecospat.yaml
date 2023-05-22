@@ -18,11 +18,11 @@ env_process: no
 bias: yes
 study_region: no
 backg_sample: yes
-data_partitioning: yes
+data_partitioning: no
 mod_fit: yes
 mod_tuning: no
 mod_ensemble: yes
-mod_stack: no
+mod_stack: yes
 mod_evaluate: yes
 mod_multispecies: no
 mod_mechanistic: no
