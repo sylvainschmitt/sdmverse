@@ -1,11 +1,11 @@
 name : "sdm"
 title: "Species Distribution Modelling"
-version: 1.1.8
+version: 1.1-8
 author: "Babak Naimi, Miguel B. Araujo"
 maintainer: "Babak Naimi <naimi.b@gmail.com>"
 cran: yes
 repository: https://github.com/babaknaimi/sdm
-description: "sdm is an object-oriented, reproducible and extensible R platform for species distribution modelling. The sdm package is designed to create a comprehensive modelling and simulation framework that: 1) provides a standardised and unified structure for handling species distributions data and modelling techniques (e.g. a unified interface is used to fit different models offered by different packages); 2) is able to support markedly different modelling approaches; 3) enables scientists to modify the existing methods, extend the framework by developing new methods or procedures, and share them to be reproduced by the other scientists; 4) handles spatial as well as temporal data for single or multiple species; 5) employs high performance computing solutions to speed up modelling and simulations, and finally; 6) uses flexible and easy-to-use GUI interface."
+description: "An extensible framework for developing species distribution models using individual and community-based approaches, generate ensembles of models, evaluate the models, and predict species potential distributions in space and time. For more information, please check the following paper: Naimi, B., Araujo, M.B. (2016) <doi:10.1111/ecog.01881>."
 occ_acquisition: no
 occ_cleaning: yes
 data_integration: yes

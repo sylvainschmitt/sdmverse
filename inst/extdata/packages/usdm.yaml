@@ -1,11 +1,11 @@
 name : "usdm"
-title: "Uncertainty Analysis for Species Distribution Modelling"
-version: 1.1.19
+title: "Uncertainty Analysis for Species Distribution Models"
+version: 1.1-18
 author: "Babak Naimi"
 maintainer: "Babak Naimi <naimi.b@gmail.com>"
 cran: yes
 repository: https://github.com/babaknaimi/usdm
-description: "A framework aims to provide methods and tools for assessing the impact of different sources of uncertainties (e.g.positional uncertainty) on performance of species distribution models (SDMs)."
+description: "This is a framework that aims to provide methods and tools for assessing the impact of different sources of uncertainties (e.g.positional uncertainty) on performance of species distribution models (SDMs)."
 occ_acquisition: no
 occ_cleaning: no
 data_integration: yes
