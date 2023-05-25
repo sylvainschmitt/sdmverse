@@ -25,7 +25,7 @@ occ_acquisition: no
 occ_cleaning: no
 data_integration: no
 env_collinearity: yes
-env_process: yes
+env_process: no
 bias: no
 study_region: yes
 backg_sample: yes
@@ -40,7 +40,7 @@ mod_mechanistic: no
 pred_general: yes
 pred_extrapolation: no
 pred_inspect: no
-post_processing: no
+post_processing: yes
 gui: no
 metadata: no
 manuscript_citation: "Machado-Stredel, F, Cobos, ME, Peterson, AT. 2021. A simulation-based method for selecting calibration areas for ecological niche models and species distribution models. Frontiers of Biogeography, 13(4), e48814."

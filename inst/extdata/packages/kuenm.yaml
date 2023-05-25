@@ -25,7 +25,7 @@ Cobos et al. (2019c) <doi:10.1101/603100>."
 occ_acquisition: no
 occ_cleaning: yes
 data_integration: no
-env_collinearity: no
+env_collinearity: yes
 env_process: no
 bias: no
 study_region: no
@@ -34,7 +34,7 @@ data_partitioning: yes
 mod_fit: yes
 mod_tuning: yes
 mod_ensemble: yes
-mod_stack: yes
+mod_stack: no
 mod_evaluate: yes
 mod_multispecies: no
 mod_mechanistic: no
