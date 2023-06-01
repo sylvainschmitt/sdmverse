@@ -1,0 +1,46 @@
+name: ellipsenm
+title: Ecological Niche's Characterizations Using Ellipsoids
+version: 0.3.4
+author: "Marlon E. Cobos, Luis Osorio-Olvera, Jorge Soberón,
+A. Townsend Peterson, Vijay Barve, and Narayani Barve"
+maintainer: Marlon E. Cobos <manubio13@gmail.com>
+cran: no
+repository: https://github.com/marlonecobos/ellipsenm
+description: "A collection of tools to characterize ecological niches using
+ellipsoid envelopes. Functions to perform model calibration and selection,
+prepare model projections to distinct scenarios, assess niche overlap, and
+produce virtual ecological niches are included as part of this package.
+Other functions implemented here are useful to perform a series of common
+pre- and post-modeling analyses. In contrast to other tools for ecological
+niche and species distribution modeling, this package is the first in
+presenting a comprehensive set of tools that use ellipsoid envelopes as
+the theoretical representation of ecological niches. Details on the
+theoretical background and methods used here can be found in:
+Peterson et al. (1999) <doi:10.1126/science.285.5431.1265>,
+Soberon and Peterson (2005) <doi:10.17161/bi.v2i0.4>,
+Peterson (2011) <doi:10.1111/j.1365-2699.2010.02456.x>,
+Peterson et al. (2011) <https://bit.ly/2UpQ9Hd>."
+occ_acquisition: no
+occ_cleaning: yes
+data_integration: no
+env_collinearity: yes
+env_process: no
+bias: no
+study_region: yes
+backg_sample: yes
+data_partitioning: yes
+mod_fit: yes
+mod_tuning: yes
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: yes
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: yes
+pred_extrapolation: no
+pred_inspect: no
+post_processing: yes
+gui: no
+metadata: no
+manuscript_citation: ""
+manuscript_doi: ""

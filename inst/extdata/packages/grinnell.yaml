@@ -1,0 +1,47 @@
+name: grinnell
+title:  Dispersal simulations based on ecological niches
+version: 0.0.21
+author: "Fernando Machado-Stredel, Marlon E. Cobos, and A. Townsend Peterson"
+maintainer: Fernando Machado-Stredel <f.machado.stredel@gmail.com>
+cran: no
+repository: https://github.com/fmachados/grinnell
+description: "A set of tools to perform simulations based on considerations of
+Grinnellian ecological niches and other user-defined dispersal paramaters.
+Dispersal simulations can be performed under constant or changing
+environmental conditions (distinct scenarios of suitability). The main
+results that can be obtained using these simulations include accessible
+areas and colonized areas. Considerations of accessible areas in the tools
+included are particularly novel compared to similar packages.
+Theoretical and methodological bases for the approaches and tools
+implemented can be found in\:
+Barve et al. (2011) <doi\:10.1016/j.ecolmodel.2011.02.011>,
+Nunez et al. (2021) <doi\:10.21425/F5FBG52142>,
+Peterson et al. (1999) <doi\:10.1126/science.285.5431.1265>,
+Peterson et al. (2011) <https\://www.degruyter.com/princetonup/view/title/506966>,
+Soberon and Peterson (2005) <doi\:10.17161/bi.v2i0.4>,
+Soberon and Peterson (2020) <doi\:10.1007/s12080-019-0432-5>,
+Machado-Stredel et al. (2021) <do\i:10.21425/F5FBG48814>."
+occ_acquisition: no
+occ_cleaning: no
+data_integration: no
+env_collinearity: yes
+env_process: no
+bias: no
+study_region: yes
+backg_sample: yes
+data_partitioning: no
+mod_fit: yes
+mod_tuning: no
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: no
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: yes
+pred_extrapolation: no
+pred_inspect: no
+post_processing: yes
+gui: no
+metadata: no
+manuscript_citation: "Machado-Stredel, F, Cobos, ME, Peterson, AT. 2021. A simulation-based method for selecting calibration areas for ecological niche models and species distribution models. Frontiers of Biogeography, 13(4), e48814."
+manuscript_doi: "10.21425/F5FBG48814"
