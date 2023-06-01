@@ -1,0 +1,31 @@
+name : "sdm"
+title: "Species Distribution Modelling"
+version: 1.1-8
+author: "Babak Naimi, Miguel B. Araujo"
+maintainer: "Babak Naimi <naimi.b@gmail.com>"
+cran: yes
+repository: https://github.com/babaknaimi/sdm
+description: "An extensible framework for developing species distribution models using individual and community-based approaches, generate ensembles of models, evaluate the models, and predict species potential distributions in space and time. For more information, please check the following paper: Naimi, B., Araujo, M.B. (2016) <doi:10.1111/ecog.01881>."
+occ_acquisition: no
+occ_cleaning: no
+data_integration: yes
+env_collinearity: no
+env_process: no
+bias: no
+study_region: yes
+backg_sample: yes
+data_partitioning: yes
+mod_fit: yes
+mod_ensemble: yes
+mod_stack: no
+mod_evaluate: yes
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: yes
+pred_extrapolation: yes
+pred_inspect: yes
+post_processing: yes
+gui: yes
+metadata: no
+manuscript_citation: "Naimi, B., Araujo, M.B. (2016) sdm: a reproducible and extensible R platform for species distribution modelling, Ecography."
+manuscript_doi: https://doi.org/10.1111/ecog.01881
