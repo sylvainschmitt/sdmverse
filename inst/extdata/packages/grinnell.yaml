@@ -1,5 +1,5 @@
-name: ellipsenm
-title: Ecological Niche's Characterizations Using Ellipsoids
+name: grinnell
+title:  Dispersal simulations based on ecological niches
 version: 0.0.21
 author: "Fernando Machado-Stredel, Marlon E. Cobos, and A. Townsend Peterson"
 maintainer: Fernando Machado-Stredel <f.machado.stredel@gmail.com>
@@ -13,14 +13,14 @@ results that can be obtained using these simulations include accessible
 areas and colonized areas. Considerations of accessible areas in the tools
 included are particularly novel compared to similar packages.
 Theoretical and methodological bases for the approaches and tools
-implemented can be found in:
-Barve et al. (2011) <doi:10.1016/j.ecolmodel.2011.02.011>,
-Nunez et al. (2021) <doi:10.21425/F5FBG52142>,
-Peterson et al. (1999) <doi:10.1126/science.285.5431.1265>,
-Peterson et al. (2011) <https://www.degruyter.com/princetonup/view/title/506966>,
-Soberon and Peterson (2005) <doi:10.17161/bi.v2i0.4>,
-Soberon and Peterson (2020) <doi:10.1007/s12080-019-0432-5>,
-Machado-Stredel et al. (2021) <doi:10.21425/F5FBG48814>."
+implemented can be found in\:
+Barve et al. (2011) <doi\:10.1016/j.ecolmodel.2011.02.011>,
+Nunez et al. (2021) <doi\:10.21425/F5FBG52142>,
+Peterson et al. (1999) <doi\:10.1126/science.285.5431.1265>,
+Peterson et al. (2011) <https\://www.degruyter.com/princetonup/view/title/506966>,
+Soberon and Peterson (2005) <doi\:10.17161/bi.v2i0.4>,
+Soberon and Peterson (2020) <doi\:10.1007/s12080-019-0432-5>,
+Machado-Stredel et al. (2021) <do\i:10.21425/F5FBG48814>."
 occ_acquisition: no
 occ_cleaning: no
 data_integration: no
