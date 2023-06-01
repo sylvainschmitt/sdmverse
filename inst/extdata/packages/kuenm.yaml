@@ -23,17 +23,17 @@ Cobos et al. (2019a) <doi:10.7717/peerj.6281>,
 Cobos et al. (2019b) <doi:10.1016/j.ecoinf.2019.100983>,
 Cobos et al. (2019c) <doi:10.1101/603100>."
 occ_acquisition: no
-occ_cleaning: yes
+occ_cleaning: no
 data_integration: no
 env_collinearity: yes
 env_process: no
 bias: no
 study_region: no
 backg_sample: yes
-data_partitioning: yes
+data_partitioning: no
 mod_fit: yes
 mod_tuning: yes
-mod_ensemble: yes
+mod_ensemble: no
 mod_stack: no
 mod_evaluate: yes
 mod_multispecies: no
