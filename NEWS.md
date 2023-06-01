@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9015
+
+- cleaning last pkgs
+
 sdmverse 0.1.0.9014
 
 -   cleaned github field to repository and hyperlinked name with repository in the app
