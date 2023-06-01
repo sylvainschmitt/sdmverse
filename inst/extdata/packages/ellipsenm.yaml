@@ -25,7 +25,7 @@ occ_cleaning: yes
 data_integration: no
 env_collinearity: yes
 env_process: no
-bias: yes
+bias: no
 study_region: yes
 backg_sample: yes
 data_partitioning: yes
@@ -39,7 +39,7 @@ mod_mechanistic: no
 pred_general: yes
 pred_extrapolation: no
 pred_inspect: no
-post_processing: no
+post_processing: yes
 gui: no
 metadata: no
 manuscript_citation: ""
