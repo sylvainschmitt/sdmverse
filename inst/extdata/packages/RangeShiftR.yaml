@@ -1,0 +1,32 @@
+name : "RangeShiftR"
+title: "An R package for individual-based simulation of spatial eco-evolutionary dynamics and species' responses to environmental changes"
+version: "1.0.4"
+author: "Anne-Kathleen Malchow, Greta Bocedi, Stephen C.F. Palmer, Justin M.J. Travis, Damaris Zurell"
+maintainer: "Anne-Kathleen Malchow, Jette Reeg"
+cran: no
+repository: "https://github.com/RangeShifter/RangeShiftR-package"
+description: "RangeShiftR provides individual-based simulations of spatial eco-evolutionary dynamics. It is based on the C++ software RangeShifter, making it flexible and fast. RangeShiftR models the processes of demography, dispersal and evolution in an inter-dependent way, offering substantial complexity in the corresponding modelling choices. It is entirely open-source and aims to facilitate the application of individual-based and mechanistic modelling to eco-evolutionary questions."
+occ_acquisition: no
+occ_cleaning: no
+data_integration: no
+env_collinearity: no
+env_process: no
+bias: no
+study_region: no
+backg_sample: no
+data_partitioning: no
+mod_fit: no
+mod_tuning: no
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: no
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: no
+pred_extrapolation: no
+pred_inspect: no
+post_processing: yes
+gui: no
+metadata: no
+manuscript_citation: "Malchow AK, Bocedi G, Palmer SCF, Travis JMJ, Zurell D (2021) RangeShiftR: an R package for individual-based simulation of spatial eco-evolutionary dynamics and species’ responses to environmental change. Ecography 4: 1443-1452."
+manuscript_doi: "10.1111/ecog.05689"
