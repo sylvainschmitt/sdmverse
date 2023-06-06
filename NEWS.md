@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9017
+
+- update plot_table and adding missing tuning
+
 sdmverse 0.1.0.9016
 
 - manually adding demoniche for the msc

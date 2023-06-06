@@ -1,7 +1,7 @@
 #' @include utils-pipe.R
 #' @importFrom dplyr select
 #' @importFrom tidyr pivot_longer
-#' @importFrom ggplot2 ggplot aes geom_tile scale_fill_discrete
+#' @importFrom ggplot2 ggplot aes geom_tile scale_fill_discrete theme element_text theme_bw element_blank
 NULL
 
 #' Plot sdmverse table
@@ -24,5 +24,9 @@ plot_table <- function(type = "tile") {
     pivot_longer(cols = occ_acquisition:metadata, names_to = "category")
   ggplot(d, aes(x = name, y = category, fill = value)) +
     geom_tile() +
-    scale_fill_discrete(type = c("white", "gray30"))
+    scale_fill_discrete(guide = "none",
+                        type = c("white", "gray30")) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90),
+          axis.title = element_blank())
 }
