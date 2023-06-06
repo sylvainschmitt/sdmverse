@@ -36,7 +36,7 @@ sdmverse::launch_app()
 
 *List of 2023-06-06*
 
-[![pacakges]("inst/img/pkgs.png")
+![pacakges](https://github.com/sylvainschmitt/sdmverse/blob/main/inst/img/pkgs.png)
 
 ## Contribution
 
