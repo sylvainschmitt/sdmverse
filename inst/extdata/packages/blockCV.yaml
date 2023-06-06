@@ -1,6 +1,6 @@
 name : "blockCV"
 title: "Spatial and Environmental Blocking for K-Fold and LOO Cross-Validation"
-version: 3.1-2
+version: 3.1-3
 author: "Roozbeh Valavi, Jane Elith, José Lahoz-Monfort, Ian Flint, Gurutzeta Guillera-Arroita"
 maintainer: "Roozbeh Valavi <valavi.r@gmail.com>"
 cran: yes

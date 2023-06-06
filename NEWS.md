@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9016
+
+- manually adding demoniche for the msc
+
 sdmverse 0.1.0.9015
 
 - cleaning last pkgs
