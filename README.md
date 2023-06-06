@@ -32,6 +32,12 @@ devtools::install_github("sylvainschmitt/sdmverse")
 sdmverse::launch_app()
 ```
 
+## Pacakges
+
+*List of 2023-06-06*
+
+[![pacakges]("inst/img/pkgs.png")
+
 ## Contribution
 
 If you want to contribute with your package metadata, please use a pull request following [the contribution guidelines](https://github.com/sylvainschmitt/sdmverse/blob/main/CONTRIBUTING.md).
