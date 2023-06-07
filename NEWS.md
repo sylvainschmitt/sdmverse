@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9018
+
+- prep plot_dendrogram for pkg dev
+
 sdmverse 0.1.0.9017
 
 - update plot_table and adding missing tuning

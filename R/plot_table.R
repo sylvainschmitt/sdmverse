@@ -26,10 +26,14 @@ plot_table <- function(type = "tile") {
     mutate(category = gsub("_", "\n", category))
   ggplot(d, aes(x = category, y = name, fill = value)) +
     geom_tile() +
-    scale_fill_discrete(guide = "none",
-                        type = c("white", "gray30")) +
+    scale_fill_discrete(
+      guide = "none",
+      type = c("white", "gray30")
+    ) +
     theme_bw() +
-    theme(axis.text.x = element_text(face = "bold", angle = 90),
-          axis.title = element_blank()) +
+    theme(
+      axis.text.x = element_text(face = "bold", angle = 90),
+      axis.title = element_blank()
+    ) +
     scale_x_discrete(position = "top")
 }
