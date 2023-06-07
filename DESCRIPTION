@@ -17,6 +17,7 @@ Depends:
     R (>= 4.0)
 RoxygenNote: 7.2.3
 Imports: 
+	factoextra,
     magrittr,
     gh,
     yaml,
@@ -33,6 +34,7 @@ Collate:
     'list_packages.R'
     'check_cran_metadata.R'
     'launch_app.R'
+    'make_dendrogram_figure.r'
     'plot_table.R'
     'prep_table.R'
     'template_from_cran.R'
