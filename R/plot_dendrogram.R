@@ -30,6 +30,7 @@ NULL
 #' # a rectangular dendrogram
 #' rect <- plot_dendrogram(
 #'   table = table,
+#'   dist_method = "binary",
 #'   k = nrow(table),
 #'   k_colors = "jco",
 #'   rect = TRUE,
@@ -38,12 +39,14 @@ NULL
 #'   type = "rectangle",
 #'   horiz = TRUE,
 #'   main = "Species distribution modeling software",
-#'   sub = date()
+#'   sub = date(),
+#'   cex = 1.4
 #' )
 #'
 #' # a phylogenic plot
 #' phylo <- plot_dendrogram(
 #'   table = table,
+#'   dist_method = "binary",
 #'   k = nrow(table),
 #'   k_colors = "jco",
 #'   rect = TRUE,
@@ -51,8 +54,10 @@ NULL
 #'   type = "phylogenic",
 #'   repel = TRUE,
 #'   main = "Species distribution modeling software",
-#'   sub = date()
+#'   sub = date(),
+#'   cex = 1
 #' )
+#'
 #' }
 #'
 #' \dontrun{
@@ -63,7 +68,7 @@ NULL
 #' @export
 #'
 plot_dendrogram <- function(table,
-                            diff_method = "euclidean",
+                            diff_method = "binary",
                             dendro_method = "average",
                             ...) {
   name <- title <- version <- repository <- NULL
