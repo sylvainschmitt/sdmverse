@@ -1,0 +1,39 @@
+name: rgbif
+title: Interface to the Global Biodiversity Information Facility API
+version: 3.7.7
+author: Scott Chamberlain, Damiano Oldoni, Vijay Barve, Peter Desmet, Laurens Geffert,
+  Dan Mcglinn, Karthik Ram, rOpenSci, John Waller
+maintainer: John Waller <jwaller@gbif.org>
+cran: yes
+repository: https://github.com/ropensci/rgbif
+description: A programmatic interface to the Web Service methods provided by the Global
+  Biodiversity Information Facility (GBIF; <https://www.gbif.org/developer/summary>).
+  GBIF is a database of species occurrence records from sources all over the globe.
+  rgbif includes functions for searching for taxonomic names, retrieving information
+  on data providers, getting species occurrence records, getting counts of occurrence
+  records, and using the GBIF tile map service to make rasters summarizing huge amounts
+  of data.
+occ_acquisition: yes
+occ_cleaning: yes
+data_integration: no
+env_collinearity: no
+env_process: no
+bias: no
+study_region: no
+backg_sample: no
+data_partitioning: no
+mod_fit: no
+mod_tuning: no
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: no
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: no
+pred_extrapolation: no
+pred_inspect: no
+post_processing: no
+gui: no
+metadata: yes
+manuscript_citation: "Chamberlain S, Boettiger C (2017). “R Python, and Ruby clients for GBIF species occurrence data.” PeerJ PrePrints"
+manuscript_doi: "10.7287/peerj.preprints.3304v1"

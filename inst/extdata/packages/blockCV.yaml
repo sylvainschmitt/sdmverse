@@ -1,14 +1,14 @@
 name : "blockCV"
 title: "Spatial and Environmental Blocking for K-Fold and LOO Cross-Validation"
-version: "3.1-1"
+version: 3.1-3
 author: "Roozbeh Valavi, Jane Elith, José Lahoz-Monfort, Ian Flint, Gurutzeta Guillera-Arroita"
 maintainer: "Roozbeh Valavi <valavi.r@gmail.com>"
 cran: yes
 repository: "https://github.com/rvalavi/blockCV"
-description: "Creating spatially or environmentally separated folds for cross-validation to provide 
-    a robust error estimation in spatially structured environments; Investigating and visualising the 
-    effective range of spatial autocorrelation in continuous raster covariates and point samples to find 
-    an initial realistic distance band to separate training and testing datasets spatially described 
+description: "Creating spatially or environmentally separated folds for cross-validation to provide
+    a robust error estimation in spatially structured environments; Investigating and visualising the
+    effective range of spatial autocorrelation in continuous raster covariates and point samples to find
+    an initial realistic distance band to separate training and testing datasets spatially described
     in Valavi, R. et al. (2019) <doi:10.1111/2041-210X.13107>."
 occ_acquisition: no
 occ_cleaning: no

@@ -4,7 +4,7 @@ version: 1.3.3
 author: "Santiago J.E. Velazco, Brooke Rose, André F.A. Andrade, Ignacio Minoli, Janet Franklin"
 maintainer: "Santiago J.E. Velazco <sjevelazco@gmail.com>"
 cran: no
-github: https://github.com/sjevelazco/flexsdm
+repository: https://github.com/sjevelazco/flexsdm
 description: "Assist in the construction of flexible
       species distribution workflow by incorporating
       comprehensive tools for data preparation, model
@@ -20,6 +20,7 @@ study_region: yes
 backg_sample: yes
 data_partitioning: yes
 mod_fit: yes
+mod_tuning: no
 mod_ensemble: yes
 mod_stack: no
 mod_evaluate: yes

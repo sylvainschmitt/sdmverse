@@ -4,7 +4,7 @@ version: 3.9.3
 author: "Barbosa A.M., Brown J.A., Jimenez-Valverde A., Real R."
 maintainer: "A. Marcia Barbosa <ana.marcia.barbosa@gmail.com>"
 cran: yes
-github: https://modeva.r-forge.r-project.org/
+repository: https://modeva.r-forge.r-project.org/
 description: "Analyses species distribution models and evaluates their performance. It includes functions for variation partitioning, extracting variable importance, computing several metrics of model discrimination and calibration performance, optimizing prediction thresholds based on a number of criteria, performing multivariate environmental similarity surface (MESS) analysis, and displaying various analytical plots. Initially described in Barbosa et al. (2013) <doi:10.1111/ddi.12100>."
 occ_acquisition: no
 occ_cleaning: no

@@ -31,15 +31,20 @@ list_packages <- function(where = "online") {
       gh("GET /repos/sylvainschmitt/sdmverse/git/trees/main?recursive=1")
     files <- vapply(request$tree, "[[", "", "path")
     packages <- grep("inst/extdata/packages/", files,
-                     value = TRUE, fixed = TRUE)
+      value = TRUE, fixed = TRUE
+    )
     packages <- lapply(packages, function(p) {
-      paste0("https://raw.githubusercontent.com/sylvainschmitt/sdmverse/main/",
-             p)
+      paste0(
+        "https://raw.githubusercontent.com/sylvainschmitt/sdmverse/main/",
+        p
+      )
     })
   }
   if (where == "locally") {
-    packages <- list.files(file.path(system.file(package = "sdmverse"),
-                                     "extdata", "packages"), full.names = TRUE)
+    packages <- list.files(file.path(
+      system.file(package = "sdmverse"),
+      "extdata", "packages"
+    ), full.names = TRUE)
   }
   lapply(packages, read_yaml) %>%
     lapply(as_tibble) %>%

@@ -17,6 +17,8 @@ Depends:
     R (>= 4.0)
 RoxygenNote: 7.2.3
 Imports: 
+    igraph,
+	  factoextra,
     magrittr,
     gh,
     yaml,
@@ -33,8 +35,10 @@ Collate:
     'list_packages.R'
     'check_cran_metadata.R'
     'launch_app.R'
+    'plot_dendrogram.R'
     'plot_table.R'
     'prep_table.R'
+    'template_from_cran.R'
 Suggests: 
     covr,
     testthat (>= 3.0.0)
