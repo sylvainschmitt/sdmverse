@@ -65,6 +65,7 @@ NULL
 plot_dendrogram <- function(table,
                             diff_method = "euclidean",
                             dendro_method = "average",
+                            return_clust = FALSE,
                             ...) {
   name <- title <- version <- repository <- NULL
   manuscript_doi <- maintainer <- NULL
@@ -82,9 +83,12 @@ plot_dendrogram <- function(table,
 
   # basic cluster
   clust <- hclust(diffs, method = dendro_method)
+  if(return_clust == TRUE) {
+    return(clust)
+  }
 
   # plot
-  graph <- suppressWarnings(fviz_dend(
+  graph <- suppressWarnings(factoextra::fviz_dend(
     x = clust,
     ...
   ))
