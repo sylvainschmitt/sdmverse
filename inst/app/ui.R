@@ -4,5 +4,4 @@ shinyUI(fluidPage(
   mainPanel(
     DT::dataTableOutput("table")
   )
-)
-)
+))

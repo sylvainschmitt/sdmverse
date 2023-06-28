@@ -16,13 +16,13 @@ NULL
 #'   packages. See \code{\link[stats]{dist}}.
 #' @param dendro_method Character: Method for calculating clusters to create the
 #'   dendrogram. See \code{\link[stats]{hclust}}.
+#' @param return_clust bool. Should the cluster figure be added.
 #' @param ... Arguments to pass to \code{\link{fviz_dend}}. See \code{Examples}
 #'   for suggestions.
 #'
 #' @returns A \pkg{ggplot2} object (class \code{gg} and \code{ggplot}).
 #'
 #' @examples
-#'
 #' \donttest{
 #' # fetch data
 #' table <- prep_table()
@@ -83,7 +83,7 @@ plot_dendrogram <- function(table,
 
   # basic cluster
   clust <- hclust(diffs, method = dendro_method)
-  if(return_clust == TRUE) {
+  if (return_clust == TRUE) {
     return(clust)
   }
 

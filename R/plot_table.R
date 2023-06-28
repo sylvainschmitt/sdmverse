@@ -2,7 +2,7 @@
 #' @importFrom dplyr select
 #' @importFrom tidyr pivot_longer
 #' @importFrom ggplot2 ggplot aes geom_tile scale_fill_discrete theme
-#'   element_text theme_bw element_blank scale_x_discrete
+#'   coord_equal element_text theme_bw element_blank scale_x_discrete
 NULL
 
 #' Plot sdmverse table
@@ -24,15 +24,14 @@ plot_table <- function(type = "tile") {
     select(name, occ_acquisition:metadata) %>%
     pivot_longer(cols = occ_acquisition:metadata, names_to = "category") %>%
     mutate(category = gsub("_", " ", category))
-  d.n <- unique(d$category)
-  d$category <- factor(d$category, levels = rev(d.n))
+  d_n <- unique(d$category)
+  d$category <- factor(d$category, levels = rev(d_n))
   ggplot(d, aes(y = category, x = name, fill = value)) +
     geom_tile() +
     scale_fill_discrete(
       guide = "none",
       type = c("white", "gray30")
     ) +
-    # coord_flip() +
     coord_equal() +
     theme_bw() +
     theme(

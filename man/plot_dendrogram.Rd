@@ -8,6 +8,7 @@ plot_dendrogram(
   table,
   diff_method = "euclidean",
   dendro_method = "average",
+  return_clust = FALSE,
   ...
 )
 }
@@ -21,6 +22,8 @@ packages. See \code{\link[stats]{dist}}.}
 \item{dendro_method}{Character: Method for calculating clusters to create the
 dendrogram. See \code{\link[stats]{hclust}}.}
 
+\item{return_clust}{bool. Should the cluster figure be added.}
+
 \item{...}{Arguments to pass to \code{\link{fviz_dend}}. See \code{Examples}
 for suggestions.}
 }
@@ -32,7 +35,6 @@ This function plot a dendrogram figure based on the similarity between SDM
 packages.
 }
 \examples{
-
 \donttest{
 # fetch data
 table <- prep_table()
