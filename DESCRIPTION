@@ -10,6 +10,8 @@ Authors@R: c(
 Maintainer: Sylvain Schmitt <sylvain.m.schmitt@gmail.com>
 URL: https://github.com/sylvainschmitt/sdmverse
 BugReports: https://github.com/sylvainschmitt/sdmverse/issues
+Description: An annotated catalog of packages for modeling species distributions
+    and niches.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -38,6 +40,7 @@ Collate:
     'plot_dendrogram.R'
     'plot_table.R'
     'prep_table.R'
+    'sdmverse.R'
     'template_from_cran.R'
 Suggests: 
     covr,
