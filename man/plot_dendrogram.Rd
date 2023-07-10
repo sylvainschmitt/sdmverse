@@ -6,7 +6,7 @@
 \usage{
 plot_dendrogram(
   table,
-  diff_method = "euclidean",
+  diff_method = "binary",
   dendro_method = "average",
   return_clust = FALSE,
   ...
@@ -69,7 +69,6 @@ phylo <- plot_dendrogram(
   sub = date(),
   cex = 1
 )
-
 }
 
 \dontrun{

@@ -57,7 +57,6 @@ NULL
 #'   sub = date(),
 #'   cex = 1
 #' )
-#'
 #' }
 #'
 #' \dontrun{
