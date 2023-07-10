@@ -42,6 +42,7 @@ table <- prep_table()
 # a rectangular dendrogram
 rect <- plot_dendrogram(
   table = table,
+  dist_method = "binary",
   k = nrow(table),
   k_colors = "jco",
   rect = TRUE,
@@ -50,12 +51,14 @@ rect <- plot_dendrogram(
   type = "rectangle",
   horiz = TRUE,
   main = "Species distribution modeling software",
-  sub = date()
+  sub = date(),
+  cex = 1.4
 )
 
 # a phylogenic plot
 phylo <- plot_dendrogram(
   table = table,
+  dist_method = "binary",
   k = nrow(table),
   k_colors = "jco",
   rect = TRUE,
@@ -63,8 +66,10 @@ phylo <- plot_dendrogram(
   type = "phylogenic",
   repel = TRUE,
   main = "Species distribution modeling software",
-  sub = date()
+  sub = date(),
+  cex = 1
 )
+
 }
 
 \dontrun{
