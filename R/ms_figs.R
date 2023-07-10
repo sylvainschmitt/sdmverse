@@ -2,7 +2,7 @@
 d <- prep_table(where = "locally")
 
 png("fig2.png", height = 480, width = 800)
-plot_table(x)
+plot_table(d)
 dev.off()
 
 pdf("fig3.pdf", height = 7, width = 16)
