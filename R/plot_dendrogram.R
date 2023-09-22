@@ -70,7 +70,7 @@ plot_dendrogram <- function(table,
   name <- title <- version <- repository <- NULL
   manuscript_doi <- maintainer <- NULL
 
-  scores <- select(
+  scores <- dplyr::select(
     table, -name, -title, -version, -repository,
     -manuscript_doi, -maintainer
   )
