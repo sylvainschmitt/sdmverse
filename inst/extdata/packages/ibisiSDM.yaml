@@ -1,0 +1,38 @@
+name: ibis.iSDM
+title: An Integrated model for BiodIversity distribution projectionS
+version: 0.1.0
+author: "Martin Jung, Maximilian Hesselbarth"
+maintainer: Martin Jung <jung@iiasa.ac.at>
+  cran: no
+repository: https://github.com/iiasa/ibis.iSDM
+description: "The ibis.iSDM package provides a series of convenience functions
+to fit integrated Species Distribution Models (iSDMs). With integrated models
+we generally refer to SDMs that incorporate information from different
+biodiversity datasets, external parameters such as priors or offsets with
+respect to certain variables and regions. It is highly modular and contains
+several helper functions to facilitate model inference and projection, as well as
+wrappers to other existing models."
+occ_acquisition: no
+occ_cleaning: yes
+data_integration: yes
+env_collinearity: yes
+env_process: yes
+bias: yes
+study_region: yes
+backg_sample: yes
+data_partitioning: no
+mod_fit: yes
+mod_tuning: yes
+mod_ensemble: yes
+mod_stack: yes
+mod_evaluate: yes
+mod_multispecies: no
+mod_mechanistic: yes
+pred_general: yes
+pred_extrapolation: yes
+pred_inspect: yes
+post_processing: yes
+gui: no
+metadata: yes
+manuscript_citation: "Jung, M. (2023). An integrated species distribution modelling framework for heterogeneous biodiversity data. Ecological Informatics, 102127."
+manuscript_doi: "10.1016/j.ecoinf.2023.102127"
