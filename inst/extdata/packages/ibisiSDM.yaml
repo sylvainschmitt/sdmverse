@@ -3,7 +3,7 @@ title: An Integrated model for BiodIversity distribution projectionS
 version: 0.1.0
 author: "Martin Jung, Maximilian Hesselbarth"
 maintainer: Martin Jung <jung@iiasa.ac.at>
-  cran: no
+cran: no
 repository: https://github.com/iiasa/ibis.iSDM
 description: "The ibis.iSDM package provides a series of convenience functions
 to fit integrated Species Distribution Models (iSDMs). With integrated models
