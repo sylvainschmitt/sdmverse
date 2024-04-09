@@ -1,18 +1,22 @@
+sdmverse 0.1.0.9019
+
+-   #38 cleaning
+
 sdmverse 0.1.0.9018
 
-- prep plot_dendrogram for pkg dev
+-   prep plot_dendrogram for pkg dev
 
 sdmverse 0.1.0.9017
 
-- update plot_table and adding missing tuning
+-   update plot_table and adding missing tuning
 
 sdmverse 0.1.0.9016
 
-- manually adding demoniche for the msc
+-   manually adding demoniche for the msc
 
 sdmverse 0.1.0.9015
 
-- cleaning last pkgs
+-   cleaning last pkgs
 
 sdmverse 0.1.0.9014
 
@@ -23,7 +27,6 @@ sdmverse 0.1.0.9013
 -   new function template_from_cran() to help submissions
 -   adding dismo, dsmextra, MinBAR and rgbif
 -   20220510 fixes
-
 
 sdmverse 0.1.0.9012
 

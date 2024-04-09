@@ -1,6 +1,6 @@
 name : "usdm"
 title: "Uncertainty Analysis for Species Distribution Models"
-version: 2.1-6
+version: 2.1-7
 author: "Babak Naimi"
 maintainer: "Babak Naimi <naimi.b@gmail.com>"
 cran: yes

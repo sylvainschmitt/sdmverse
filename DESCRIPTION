@@ -20,7 +20,7 @@ Depends:
 RoxygenNote: 7.2.3
 Imports: 
     igraph,
-	factoextra,
+	  factoextra,
     magrittr,
     gh,
     yaml,

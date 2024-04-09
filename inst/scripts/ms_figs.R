@@ -7,31 +7,34 @@ pal <- RColorBrewer::brewer.pal(8, "Set1") |> rev()
 pal[3] <- RColorBrewer::brewer.pal(6, "Dark2")[6]
 
 pdf("fig3.pdf", height = 7, width = 16)
-f2a <- plot_dendrogram(d, k=8, cex = 0.7, diff_method = "binary", k_colors = pal, horiz = TRUE, main = "")
-f2b <- plot_dendrogram(d, k=8, cex = 1, diff_method = "binary", type = "phylogenic", repel = TRUE, k_colors = pal)
+f2a <- plot_dendrogram(d, k = 8, cex = 0.7, diff_method = "binary",
+                       k_colors = pal, horiz = TRUE, main = "")
+f2b <- plot_dendrogram(d, k = 8, cex = 1, diff_method = "binary",
+                       type = "phylogenic", repel = TRUE, k_colors = pal)
 gridExtra::grid.arrange(f2a, f2b, nrow = 1, widths = c(10, 6))
-dev.off()
+dev.off() #nolint
 
-clust <- plot_dendrogram(d, k=8, cex = 0.7, diff_method = "binary", k_colors = pal, horiz = TRUE, main = "", return_clust = TRUE)
-pkgOrder <- rev(clust$labels[clust$order])
-# dend <- as.dendrogram(clust)
-# dend <- dendextend::set(dend, "branches_k_color", k = 8, value = pal) |> dendextend::set("labels_col", k = 8, value = pal)
+clust <- plot_dendrogram(d, k = 8, cex = 0.7, diff_method = "binary",
+                         k_colors = pal, horiz = TRUE, main = "",
+                         return_clust = TRUE)
+pkg_order <- rev(clust$labels[clust$order])
 
 png("fig3.png", height = 480, width = 1100)
 gridExtra::grid.arrange(f2a, f2b, nrow = 1, widths = c(10, 6))
-dev.off()
+dev.off() #nolint
 
-pkgCols <- pkgOrder
-names(pkgCols) <- pkgOrder
-pkgCols[1:4] <- pal[8]
-pkgCols[5] <- pal[7]
-pkgCols[6:7] <- pal[6]
-pkgCols[8:27] <- pal[5]
-pkgCols[28] <- pal[4]
-pkgCols[29:31] <- pal[3]
-pkgCols[32:34] <- pal[2]
-pkgCols[35] <- pal[1]
+pkg_cols <- pkg_order
+names(pkg_cols) <- pkg_order
+pkg_cols[1:4] <- pal[8]
+pkg_cols[5] <- pal[7]
+pkg_cols[6:7] <- pal[6]
+pkg_cols[8:27] <- pal[5]
+pkg_cols[28] <- pal[4]
+pkg_cols[29:31] <- pal[3]
+pkg_cols[32:34] <- pal[2]
+pkg_cols[35] <- pal[1]
 
 pdf("fig2.pdf", height = 10, width = 10)
-plot_table(d, pkgOrder = pkgOrder, pkgCols = pkgCols, removeEmptyCats = TRUE)
+plot_table(d, pkg_order = pkg_order,
+           pkg_cols = pkg_cols, removeEmptyCats = TRUE)
 dev.off()

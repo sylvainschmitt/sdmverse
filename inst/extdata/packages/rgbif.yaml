@@ -1,6 +1,6 @@
 name: rgbif
 title: Interface to the Global Biodiversity Information Facility API
-version: 3.7.7
+version: 3.7.9
 author: Scott Chamberlain, Damiano Oldoni, Vijay Barve, Peter Desmet, Laurens Geffert,
   Dan Mcglinn, Karthik Ram, rOpenSci, John Waller
 maintainer: John Waller <jwaller@gbif.org>

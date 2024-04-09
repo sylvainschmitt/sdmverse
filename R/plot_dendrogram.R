@@ -2,6 +2,7 @@
 #' @importFrom stats dist as.dist hclust
 #' @importFrom dplyr select
 #' @importFrom factoextra fviz_dend
+#' @import igraph
 NULL
 
 
