@@ -24,33 +24,36 @@ NULL
 #'
 plot_table <- function(d, type = "tile", pkgOrder = NULL, pkgCols = NULL, removeEmptyCats = FALSE) {
   name <- occ_acquisition <- metadata <- category <- value <- NULL
-  dd <- d %>%
-    dplyr::select(name, occ_acquisition:metadata) %>%
-    dplyr::rename("occurrence data acquisition" = occ_acquisition,
-           "occurrence data cleaning" = occ_cleaning,
-           "data integration" = data_integration,
-           "environmental variable collinearity" = env_collinearity,
-           "environmental variable processing" = env_process,
-           "addressing data biases" = bias,
-           "defining model training extent" = study_region,
-           "background data sampling" = backg_sample,
-           "occurrence data partitioning" = data_partitioning,
-           "model fitting" = mod_fit,
-           "model tuning" = mod_tuning,
-           "model ensembles" = mod_ensemble,
-           "model stacking" = mod_stack,
-           "model evaluation" = mod_evaluate,
-           "multispecies modeling" = mod_multispecies,
-           "mechanistic modeling" = mod_mechanistic,
-           "model prediction" = pred_general,
-           "model extrapolation tools/plots" = pred_extrapolation,
-           "model behavior inspection/plots" = pred_inspect,
-           "using predictions as analysis inputs" = post_processing,
-           "graphical user interface" = gui,
-           "metadata tools" = metadata)
+  lu <- c(occ_acquisition = "occurrence data acquisition",
+          occ_cleaning = "occurrence data cleaning",
+          data_integration = "data integration",
+          env_collinearity = "environmental variable collinearity",
+          env_process = "environmental variable processing",
+          bias = "addressing data biases",
+          study_region = "defining model training extent",
+          backg_sample = "background data sampling",
+          data_partitioning = "occurrence data partitioning",
+          mod_fit = "model fitting",
+          mod_tuning = "model tuning",
+          mod_ensemble = "model ensembles",
+          mod_stack = "model stacking",
+          mod_evaluate = "model evaluation",
+          mod_multispecies = "multispecies modeling",
+          mod_mechanistic = "mechanistic modeling",
+          pred_general = "model prediction",
+          pred_extrapolation = "model extrapolation tools/plots",
+          pred_inspect = "model behavior inspection/plots",
+          post_processing = "using predictions as analysis inputs",
+          gui = "graphical user interface",
+          metadata = "metadata tools")
+  dd <- dplyr::select(d, name, occ_acquisition:metadata)
+  names(dd)[-1] <- lu[names(dd)[-1]]
+
   if(removeEmptyCats == TRUE) {
-    emptyCols <- which(colSums(dd[,-1]) == 0) + 1
-    dd <- dd[,-emptyCols]
+    whichEmpty <- which(colSums(dd[,-1]) == 0)
+    if(length(whichEmpty) > 0) {
+      dd <- dd[,-whichEmpty+1]
+    }
   }
   dd <- dd %>%
     tidyr::pivot_longer(cols = `occurrence data acquisition`:`metadata tools`, names_to = "category") %>%
