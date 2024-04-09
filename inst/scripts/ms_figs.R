@@ -34,7 +34,7 @@ pkg_cols[29:31] <- pal[3]
 pkg_cols[32:34] <- pal[2]
 pkg_cols[35] <- pal[1]
 
-pdf("fig2.pdf", height = 10, width = 10)
-plot_table(d, pkg_order = pkg_order,
-           pkg_cols = pkg_cols, removeEmptyCats = TRUE)
-dev.off()
+g <- plot_table(d,
+           pkg_order = pkg_order,
+           remove_empty_cats = TRUE)
+ggplot2::ggsave("inst/img/pkgs.png", g, height = 10, width = 10)
