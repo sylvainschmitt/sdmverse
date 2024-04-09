@@ -34,7 +34,7 @@ sdmverse::launch_app()
 
 ## Pacakges
 
-*List of 2023-06-06*
+*List of 2024-04-09*
 
 ![pacakges](https://github.com/sylvainschmitt/sdmverse/blob/main/inst/img/pkgs.png)
 
