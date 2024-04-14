@@ -18,22 +18,14 @@ description: "Range Modeling Metadata Standards (RMMS) address three challenges:
   <https://github.com/ecospat/ecospat>."
 occ_acquisition: no
 occ_cleaning: no
-data_integration: no
-env_collinearity: no
 env_process: no
 bias: no
 study_region: no
-backg_sample: no
-data_partitioning: no
+partitioning: no
 mod_fit: no
 mod_tuning: no
-mod_ensemble: no
-mod_stack: no
+mod_combine: no
 mod_evaluate: no
-mod_multispecies: no
-mod_mechanistic: no
-pred_general: no
-pred_extrapolation: no
 pred_inspect: no
 post_processing: no
 gui: yes

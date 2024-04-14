@@ -1,7 +1,7 @@
 library(dplyr)
 
-d <- prep_table(where = "locally")
-d <- d |> select(-mod_multispecies, -mod_mechanistic, -manuscript_doi)
+d <- prep_table(where = "core")
+# d <- d |> select(-mod_multispecies, -mod_mechanistic)
 
 pal <- RColorBrewer::brewer.pal(8, "Set1") |> rev()
 pal[3] <- RColorBrewer::brewer.pal(6, "Dark2")[6]

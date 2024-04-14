@@ -1,0 +1,24 @@
+name: "enmSdmX"
+title: "Species Distribution Modeling and Ecological Niche Modeling"
+version: 1.1.2
+author: "Adam B. Smith"
+maintainer: "Adam B. Smith <adam.smith@mobot.org>"
+cran: yes
+repository: "https://github.com/adamlilith/enmSdmX"
+description: "Implements species distribution modeling and ecological niche modeling, including: bias correction, spatial cross-validation, model evaluation, raster interpolation, biotic \"velocity\" (speed and direction of movement of a \"mass\" represented by a raster), interpolating across a time series of rasters, and use of spatially imprecise records. The heart of the package is a set of \"training\" functions which automatically optimize model complexity based number of available occurrences. These algorithms include MaxEnt, MaxNet, boosted regression trees/gradient boosting machines, generalized additive models, generalized linear models, natural splines, and random forests. To enhance interoperability with other modeling packages, no new classes are created. The package works with 'PROJ6' geodetic objects and coordinate reference systems."
+occ_acquisition: no
+occ_cleaning: no
+env_process: no
+bias: yes
+study_region: no
+partitioning: yes
+mod_fit: no
+mod_tuning: yes
+mod_combine: no
+mod_evaluate: yes
+pred_inspect: no
+post_processing: no
+gui: no
+metadata: no
+manuscript_citation: "Smith, A.B., Murphy, S.J., Henderson, D., and Erickson, K.D. 2023. Including imprecisely georeferenced specimens improves accuracy of species distribution models and estimates of niche breadth.  Global Ecology and Biogeography 32:342-255"
+manuscript_doi: "10.1111/geb.13628; 10.1101/2021.06.10.447988"

@@ -1,0 +1,27 @@
+name : wallace
+title: "A Modular Platform for Reproducible Modeling of Species Niches and Distributions"
+version: 2.1.2
+author: "Jamie M. Kass, Gonzalo E. Pinilla-Buitrago, Andrea Paz, Bethany A. Johnson,
+Valentina Grisales-Betancur, Dean Attali, Matthew E. Aiello-Lammens, Cory Merow,
+Mary E. Blair, Robert P. Anderson, Sarah I. Meenan, Olivier Broennimann, Peter J. Galante,
+Brian S. Maitner, Hannah L. Owens, Sara Varela, Bruno Vilela, Robert Muscarella"
+maintainer: "Mary E. Blair <mblair1@amnh.org>"
+cran: yes
+repository: "https://github.com/wallaceEcoMod/wallace"
+description: "The 'shiny' application Wallace is a modular platform for reproducible modeling of species niches and distributions. Wallace guides users through a complete analysis, from the acquisition of species occurrence and environmental data to visualizing model predictions on an interactive map, thus bundling complex workflows into a single, streamlined interface. An extensive vignette, which guides users through most package functionality can be found on the package's GitHub Pages website: <https://wallaceecomod.github.io/wallace/articles/tutorial-v2.html>."
+occ_acquisition: yes
+occ_cleaning: yes
+env_process: yes
+bias: no
+study_region: yes
+partitioning: yes
+mod_fit: no
+mod_tuning: yes
+mod_combine: no
+mod_evaluate: yes
+pred_inspect: yes
+post_processing: no
+gui: yes
+metadata: yes
+manuscript_citation: "Kass JM, Pinilla-Buitrago GE, Paz A, Johnson BA, Grisales-Betancur V, Meenan SI, Attali D, Broennimann O, Galante PJ, Maitner BS, Owens HL, Varela S, Aiello-Lammens ME, Merow C, Blair ME, Anderson RP. (2022). wallace 2: a shiny app for modeling species niches and distributions redesigned to facilitate expansion via module contributions. Ecography, e06547."
+manuscript_doi: "10.1111/ecog.06547"

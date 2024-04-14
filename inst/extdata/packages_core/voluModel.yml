@@ -1,0 +1,24 @@
+name : voluModel
+title: "Modeling Species Distributions in Three Dimensions"
+version: 0.2.1
+author: "Hannah L. Owens, Carsten Rahbek"
+maintainer: "Hannah L. Owens <hannah.owens@gmail.com>"
+cran: yes
+repository: https://hannahlowens.github.io/voluModel/
+description: "Facilitates modeling species' ecological niches and geographic distributions based on occurrences and environments that have a vertical as well as horizontal component, and projecting models into three-dimensional geographic space. Working in three dimensions is useful in an aquatic context when the organisms one wishes to model can be found across a wide range of depths in the water column. The package also contains functions to automatically generate marine training model training regions using machine learning, and interpolate and smooth patchily sampled environmental rasters using thin plate splines. Davis Rabosky AR, Cox CL, Rabosky DL, Title PO, Holmes IA, Feldman A, McGuire JA (2016) <doi:10.1038/ncomms11484>. Nychka D, Furrer R, Paige J, Sain S (2021) <doi:10.5065/D6W957CT>. Pateiro-Lopez B, Rodriguez-Casal A (2022) <https://CRAN.R-project.org/package=alphahull>."
+occ_acquisition: no
+occ_cleaning: yes
+env_process: yes
+bias: no
+study_region: yes
+partitioning: no
+mod_fit: no
+mod_tuning: no
+mod_combine: no
+mod_evaluate: no
+pred_inspect: yes
+post_processing: no
+gui: no
+metadata: no
+manuscript_citation: "Owens, H.L., and Rahbek, C. (2022). voluModel: Modelling species distributions in three-dimensional space. Methods in Ecology and Evolution, 14(3), 841-847."
+manuscript_doi: "10.1111/2041-210X.14064"

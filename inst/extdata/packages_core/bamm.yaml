@@ -1,0 +1,43 @@
+name : bamm
+title: "Species Distribution Models as a Function of Biotic, Abiotic and
+       Movement Factors (BAM)"
+version: 0.4.3
+author: "Luis Osorio-Olvera, Jorge Soberón"
+maintainer: "Luis Osorio-Olvera <luismurao@gmail.com>"
+cran: yes
+repository: "https://github.com/luismurao/bamm"
+description: "Species Distribution Modeling (SDM) is a practical methodology
+ that aims to estimate the area of distribution of a species. However,
+ most of the work has focused on estimating static expressions of the
+ correlation between environmental variables. The outputs of
+ correlative species distribution models can be interpreted
+ as maps of the suitable environment for a species but not generally as maps
+ of its actual distribution.
+ Soberón and Peterson (2005) <doi:10.17161/bi.v2i0.4> presented
+ the BAM scheme, a heuristic framework that states that the occupied area of
+ a species occurs on sites that have been accessible through dispersal (M) and
+ have both favorable biotic (B) and abiotic conditions (A).
+ The 'bamm' package implements classes and functions to operate on each element
+ of the BAM and by using a cellular automata model where the occupied area
+ of a species at time t is estimated by the multiplication of three
+ binary matrices: one matrix represents movements (M), another
+ abiotic -niche- tolerances (A), and a third, biotic interactions (B).
+ The theoretical background of the package can be found in
+ Soberón and Osorio-Olvera (2022) <arXiv:2212.06308>."
+occ_acquisition: no
+occ_cleaning: no
+env_process: no
+bias: no
+study_region: no
+partitioning: no
+mod_fit: no
+mod_tuning: no
+mod_combine: no
+mod_evaluate: no
+pred_inspect: yes
+post_processing: yes
+gui: no
+metadata: no
+manuscript_citation: "Soberón, J & Osorio‐Olvera, L. (2023). A dynamic theory of the
+area of distribution. Journal of Biogeography, 00, 1–12"
+manuscript_doi: "10.1111/jbi.14587"

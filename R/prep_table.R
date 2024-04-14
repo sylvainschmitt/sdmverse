@@ -22,6 +22,6 @@ NULL
 prep_table <- function(where = "online") {
   author <- cran <- repository <- description <- manuscript_citation <- NULL
   list_packages(where = where) %>%
-    select(-author, -cran, repository, -description, -manuscript_citation) %>%
+    select(-author, -cran, -repository, -description, -manuscript_citation, -manuscript_doi) %>%
     return()
 }

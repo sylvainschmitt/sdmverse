@@ -1,0 +1,32 @@
+name : ntbox
+title: "From Getting Biodiversity Data to Evaluating Species Distribution Models in a Friendly GUI Environment"
+version: 0.6.6
+author: "Luis Osorio-Olvera, Andrés Lira-Noriega, Jorge Soberón, Townsend Peterson,
+Manuel Falconi, Rusby G. Contreras-Díaz, Enrique Martínez-Meyer, Vijay Barbe,
+Narayani Barve"
+maintainer: "Luis Osorio-Olvera <luismurao@gmail.com>"
+cran: no
+repository: "https://github.com/luismurao/ntbox"
+description: "NicheToolbox is an R package with a friendly Graphical User Interface (GUI)
+             developed using shiny framework that aims to facilitate the process of building
+             niche models and estimate the species distributions."
+occ_acquisition: yes
+occ_cleaning: yes
+env_process: yes
+bias: yes
+study_region: yes
+partitioning: yes
+mod_fit: no
+mod_tuning: yes
+mod_combine: no
+mod_evaluate: yes
+pred_inspect: yes
+post_processing: yes
+gui: yes
+metadata: yes
+manuscript_citation: "Osorio‐Olvera, L., Lira‐Noriega, A., Soberón, J., Peterson, A.T.,
+  Falconi, M., Contreras‐Díaz, R.G., Martínez‐Meyer, E., Barve, V. and
+  Barve, N. (2020). NTBOX: an R package with graphical user interface for
+  modeling and evaluating multidimensional ecological niches Methods in
+  Ecology and Evolution 11(10):1199-1206."
+manuscript_doi: "10.1111/2041-210X.13452"

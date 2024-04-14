@@ -1,0 +1,24 @@
+name : "modleR"
+title: "A Workflow for Ecological Niche Models"
+version: "0.0.1"
+author: "Andrea Sánchez-Tapia, Sara Mortara, Diogo Rocha, Felipe Barros, Guilherme Gall"
+maintainer: "Andrea Sánchez-Tapia"
+cran: no
+repository: "https://github.com/Model-R/modleR"
+description: "This package implements a workflow to perform ecological niche modeling (ENM), including some procedures of data preparation and cleaning, the setup of several experimental designs (crossvalidation, repeated crossvalidation and bootstrap), the application of inclusion and exclusion buffers to background selection, fitting algorithms that are already implemented in dismo, randomForest, e1071, kernlab packages, namely: Bioclim, Domain, GLM, Mahalanobis Distance, Maxent, Random Forest, and two versions of Support Vector Machines (here svmk and svme). It uses the structure provided by package dismo for model evaluation and projects the models into other sets of environmental variables. A function to join individual partitions in several ways is provided in final_model(). Finally, ensemble_model() assembles models from distinct algorithms and provides summary rasters."
+occ_acquisition: no
+occ_cleaning: yes
+env_process: yes
+bias: no
+study_region: yes
+partitioning: yes
+mod_fit: yes
+mod_tuning: no
+mod_combine: yes
+mod_evaluate: no
+pred_inspect: no
+post_processing: no
+gui: no
+metadata: yes
+manuscript_citation: "Andrea Sánchez-Tapia, Sara Ribeiro Mortara, Diogo Souza Bezerra Rocha, Felipe Sodré Mendes Barros, Guilherme Gall, Marinez Ferreira de Siqueira. modleR: a modular workflow to perform ecological niche modeling in R. https://www.biorxiv.org/content/10.1101/2020.04.01.021105v1"
+manuscript_doi: "https://doi.org/10.1101/2020.04.01.021105"

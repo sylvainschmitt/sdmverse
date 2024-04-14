@@ -1,0 +1,24 @@
+name : embarcadero
+title: "Species distribution models with BART"
+version: 1.1
+author: "Carlson C.J."
+maintainer: "Carlson C.J."
+cran: no
+repository: https://github.com/cjcarlson/embarcadero
+description: "This package is a wrapper for the `dbarts` package for Bayesian additive regression trees, which is designed to make it easier to do species distribution models with BART."
+occ_acquisition: no
+occ_cleaning: no
+env_process: no
+bias: no
+study_region: no
+partitioning: no
+mod_fit: yes
+mod_tuning: yes
+mod_combine: no
+mod_evaluate: yes
+pred_inspect: no
+post_processing: no
+gui: no
+metadata: no
+manuscript_citation: "Carlson C.J. (2020) embarcadero: Species distribution modelling with Bayesian additive regression trees in R. Methods in Ecology and Evolution, 11(7), 850-858."
+manuscript_doi: "10.1111/2041-210X.13389"

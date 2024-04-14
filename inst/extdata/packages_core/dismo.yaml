@@ -1,0 +1,25 @@
+name: dismo
+title: Species Distribution Modeling
+version: 1.3-14
+author: Robert J. Hijmans, Steven Phillips, John Leathwick, Jane Elith
+maintainer: Robert J. Hijmans <r.hijmans@gmail.com>
+cran: yes
+repository: ""
+description: Methods for species distribution modeling, that is, predicting the environmental
+  similarity of any site to that of the locations of known occurrences of a species.
+occ_acquisition: no
+occ_cleaning: no
+env_process: no
+bias: no
+study_region: no
+partitioning: yes
+mod_fit: yes
+mod_tuning: no
+mod_combine: no
+mod_evaluate: yes
+pred_inspect: yes
+post_processing: no
+gui: no
+metadata: no
+manuscript_citation: ""
+manuscript_doi: ""
