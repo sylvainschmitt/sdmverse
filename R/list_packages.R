@@ -24,7 +24,7 @@ NULL
 list_packages <- function(where = "online") {
   name <- version <- NULL
   if (!(where %in% c("locally", "online", "core"))) {
-    stop("The where argument should be 'locally', 'core', or 'online'.")
+    stop("The where argument should be 'locally' or 'online'.")
   }
   if (where == "online") {
     request <-
@@ -44,12 +44,6 @@ list_packages <- function(where = "online") {
     packages <- list.files(file.path(
       system.file(package = "sdmverse"),
       "extdata", "packages"
-    ), full.names = TRUE)
-  }
-  if (where == "core") {
-    packages <- list.files(file.path(
-      system.file(package = "sdmverse"),
-      "extdata", "packages_core"
     ), full.names = TRUE)
   }
   lapply(packages, read_yaml) %>%
