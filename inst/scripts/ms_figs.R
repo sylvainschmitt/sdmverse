@@ -10,13 +10,9 @@ d <- select(d, -data_integration, -env_collinearity, -backg_sample,
             -pred_extrapolation, -mod_multispecies, -mod_mechanistic,
             -mod_stack, -mod_ensemble, -pred_general, -mod_fit) |>
   filter(name != "rgbif", name != "ibis.iSDM", name != "dismo")
-# d <- d %>% select(-mod_fit)
-# d <- filter(d, !(name %in% c("wallace", "ntbox", "ShinyBIOMOD")))
-# d <- d |> select()
 
-pal <- RColorBrewer::brewer.pal(8, "Set1")
-pal[6] <- RColorBrewer::brewer.pal(6, "Dark2")[6]
-pal <- c('#1b9e77','#d95f02','#7570b3','#e7298a','#66a61e','#e6ab02','#a6761d','#666666')
+pal <- c("#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02",
+         "#a6761d", "#666666")
 
 pdf("fig3.pdf", height = 7, width = 16)
 f2a <- plot_dendrogram(d, k = 8, cex = 0.7, diff_method = "binary",
@@ -47,6 +43,6 @@ pkg_cols[32:34] <- pal[2]
 pkg_cols[35] <- pal[1]
 
 g <- plot_table(d,
-           pkg_order = pkg_order,
-           remove_empty_cats = TRUE)
+                pkg_order = pkg_order,
+                remove_empty_cats = TRUE)
 ggplot2::ggsave("inst/img/pkgs.png", g, height = 10, width = 10)

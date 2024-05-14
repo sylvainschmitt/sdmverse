@@ -10,7 +10,8 @@ NULL
 #' This function list sdmverse packages from online yamls.
 #'
 #' @param where char. Where to download the packages metadata,
-#'  either 'locally' or 'core' with the package, or 'online' in the GitHub repository.
+#'  either 'locally' or 'core' with the package, or 'online' in the GitHub
+#'  repository.
 #'
 #' @return sdmverse packages metadata.
 #'
