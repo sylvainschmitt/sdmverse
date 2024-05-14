@@ -41,6 +41,6 @@ pred_extrapolation: yes
 pred_inspect: yes
 post_processing: no
 gui: no
-metadata: no
+metadata: yes
 manuscript_citation: "Kass, J. M., Muscarella, R., Galante, P. J., Bohl, C. L., Pinilla‐Buitrago, G. E., Boria, R. A., Soley-Guardia, M., & Anderson, R. P. (2021). ENMeval 2.0: Redesigned for customizable and reproducible modeling of species’ niches and distributions. Methods in Ecology and Evolution, 12(9), 1602-1608."
 manuscript_doi: "10.1111/2041-210X.13628"
