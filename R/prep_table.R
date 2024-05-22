@@ -20,8 +20,10 @@ NULL
 #' @export
 #'
 prep_table <- function(where = "online") {
-  author <- cran <- repository <- description <- manuscript_citation <- NULL
+  author <- cran <- repository <- description <- NULL
+  manuscript_citation <- manuscript_doi <- NULL
   list_packages(where = where) %>%
-    select(-author, -cran, repository, -description, -manuscript_citation) %>%
+    select(-author, -cran, -repository, -description,
+           -manuscript_citation, -manuscript_doi) %>%
     return()
 }

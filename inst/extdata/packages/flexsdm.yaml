@@ -15,7 +15,7 @@ occ_cleaning: yes
 data_integration: no
 env_collinearity: yes
 env_process: no
-bias: no
+bias: yes
 study_region: yes
 backg_sample: yes
 data_partitioning: yes

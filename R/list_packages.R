@@ -10,7 +10,8 @@ NULL
 #' This function list sdmverse packages from online yamls.
 #'
 #' @param where char. Where to download the packages metadata,
-#'  either 'locally' with the package or 'online' in the GitHub repository.
+#'  either 'locally' or 'core' with the package, or 'online' in the GitHub
+#'  repository.
 #'
 #' @return sdmverse packages metadata.
 #'
@@ -23,7 +24,7 @@ NULL
 #'
 list_packages <- function(where = "online") {
   name <- version <- NULL
-  if (!(where %in% c("locally", "online"))) {
+  if (!(where %in% c("locally", "online", "core"))) {
     stop("The where argument should be 'locally' or 'online'.")
   }
   if (where == "online") {
