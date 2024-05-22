@@ -4,10 +4,16 @@
 \alias{plot_table}
 \title{Plot sdmverse table}
 \usage{
-plot_table(type = "tile")
+plot_table(d, pkg_order = NULL, pkg_cols = NULL, remove_empty_cats = FALSE)
 }
 \arguments{
-\item{type}{char. Type of ggplot to make.}
+\item{d}{data frame. sdmverse table built with prep_table().}
+
+\item{pkg_order}{char. Order of packages to plot.}
+
+\item{pkg_cols}{char. Color for packages plot.}
+
+\item{remove_empty_cats}{bool. Remove empty categories.}
 }
 \value{
 Plot package characteristics from the sdmverse table using ggplot.
@@ -17,7 +23,8 @@ Plot sdmverse table
 }
 \examples{
 \dontrun{
-plot_table()
+prep_table() \%>\%
+  plot_table()
 }
 
 }

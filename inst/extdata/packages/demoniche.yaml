@@ -1,0 +1,32 @@
+name : "demoniche"
+title: "demoniche - spatial population dynamics"
+version: "1.0"
+author: "Hedvig Nenzen"
+maintainer: "Hedvig Nenzen <hedvig.nenzen@gmail.com>"
+cran: no
+repository: "https://r-forge.r-project.org/projects/demoniche/"
+description: "demoniche carries out spatially-explicit demographic modelling. The model simulates stochastic and gradual environmental changes, and dispersal between sub-populations to investigate population dynamics and persistence in space and time."
+occ_acquisition: no
+occ_cleaning: no
+data_integration: no
+env_collinearity: no
+env_process: no
+bias: no
+study_region: no
+backg_sample: no
+data_partitioning: no
+mod_fit: no
+mod_tuning: no
+mod_ensemble: no
+mod_stack: no
+mod_evaluate: no
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: no
+pred_extrapolation: no
+pred_inspect: no
+post_processing: yes
+gui: no
+metadata: no
+manuscript_citation: "Nenzén, H. K., Swab, R. M., Keith, D. A., & Araújo, M. B. (2012). demoniche–an R‐package for simulating spatially‐explicit population dynamics. Ecography, 35(7), 577-580."
+manuscript_doi: "10.1111/j.1600-0587.2012.07378.x"

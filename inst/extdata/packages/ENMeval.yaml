@@ -21,10 +21,10 @@ users through most package functionality but unfortunately has a file size too
 big for CRAN, can be found here on the package's Github Pages
 website:\ <https://jamiemkass.github.io/ENMeval/articles/ENMeval-2.0-vignette.html>."
 occ_acquisition: no
-occ_cleaning: yes
+occ_cleaning: no
 data_integration: no
 env_collinearity: no
-env_process: yes
+env_process: no
 bias: no
 study_region: no
 backg_sample: no
@@ -36,10 +36,10 @@ mod_stack: no
 mod_evaluate: yes
 mod_multispecies: no
 mod_mechanistic: no
-pred_general: no
+pred_general: yes
 pred_extrapolation: yes
-pred_inspect: no
-post_processing: yes
+pred_inspect: yes
+post_processing: no
 gui: no
 metadata: yes
 manuscript_citation: "Kass, J. M., Muscarella, R., Galante, P. J., Bohl, C. L., Pinilla‐Buitrago, G. E., Boria, R. A., Soley-Guardia, M., & Anderson, R. P. (2021). ENMeval 2.0: Redesigned for customizable and reproducible modeling of species’ niches and distributions. Methods in Ecology and Evolution, 12(9), 1602-1608."

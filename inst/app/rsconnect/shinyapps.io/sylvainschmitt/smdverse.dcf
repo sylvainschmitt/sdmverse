@@ -5,7 +5,5 @@ account: sylvainschmitt
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8255748
-bundleId: 7203199
+bundleId: 8471413
 url: https://sylvainschmitt.shinyapps.io/smdverse/
-when: 1683789626.61328
-lastSyncTime: 1683789626.61331

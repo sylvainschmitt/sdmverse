@@ -33,7 +33,7 @@ mod_evaluate: no
 mod_multispecies: no
 mod_mechanistic: no
 pred_general: no
-pred_extrapolation: yes
+pred_extrapolation: no
 pred_inspect: no
 post_processing: no
 gui: yes

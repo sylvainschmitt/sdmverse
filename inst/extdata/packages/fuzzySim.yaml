@@ -1,6 +1,6 @@
 name : fuzzySim
 title: "Fuzzy Similarity in Species Distributions"
-version: 4.9.9
+version: 4.10.7
 author: "Barbosa A.M."
 maintainer: "A. Marcia Barbosa <ana.marcia.barbosa@gmail.com>"
 cran: yes
@@ -20,7 +20,7 @@ mod_tuning: yes
 mod_ensemble: yes
 mod_stack: yes
 mod_evaluate: no
-mod_multispecies: yes
+mod_multispecies: no
 mod_mechanistic: no
 pred_general: yes
 pred_extrapolation: no
