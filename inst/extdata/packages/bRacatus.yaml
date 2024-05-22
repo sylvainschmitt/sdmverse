@@ -1,6 +1,6 @@
 name : bRacatus
 title: A Method to Estimate the Accuracy and Biogeographical Status of Georeferenced Biological Data
-version: 1.0.11
+version: 2.0.0
 author: Eduardo Arlé, Alexander Zizka, Patrick Weigelt, Sam Levin, Carsten Meyer
 maintainer: Eduardo Arlé <eduardoarle@tauex.tau.ac.il>
 cran: yes

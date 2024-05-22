@@ -57,7 +57,7 @@ plot_table <- function(
   names(dd)[-1] <- lu[names(dd)[-1]]
 
   if (remove_empty_cats) {
-    whichEmpty <- which(colSums(dd[, -1]) == 0) #nolint
+    whichEmpty <- which(colSums(dd[, -1]) == 0) # nolint
     if (length(whichEmpty) > 0) {
       dd <- dd[, -whichEmpty + 1]
     }
