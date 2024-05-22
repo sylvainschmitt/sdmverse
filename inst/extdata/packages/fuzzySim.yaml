@@ -20,7 +20,7 @@ mod_tuning: yes
 mod_ensemble: yes
 mod_stack: yes
 mod_evaluate: no
-mod_multispecies: yes
+mod_multispecies: no
 mod_mechanistic: no
 pred_general: yes
 pred_extrapolation: no
