@@ -32,6 +32,7 @@ pkg_order <- rev(clust$labels[clust$order])
 
 pkg_cols <- pkg_order
 names(pkg_cols) <- pkg_order
+
 pkg_cols[1:21] <- pal[5]
 pkg_cols[22:26] <- pal[4]
 pkg_cols[27:30] <- pal[3]
