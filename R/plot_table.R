@@ -28,7 +28,7 @@ plot_table <- function(
     pkg_cols = NULL,
     remove_empty_cats = FALSE) {
   name <- occ_acquisition <- metadata <- category <- value <- NULL
-  `occurrence data acquisition` <- `metadata tools` <- NULL
+  `occurrence data acquisition` <- `metadata tools` <- NULL # nolint
   lu <- c(
     occ_acquisition = "occurrence data acquisition",
     occ_cleaning = "occurrence data cleaning",
