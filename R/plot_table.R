@@ -28,7 +28,7 @@ plot_table <- function(
     pkg_cols = NULL,
     remove_empty_cats = FALSE) {
   name <- occ_acquisition <- metadata <- category <- value <- NULL
-  # `occurrence data acquisition` <- `metadata tools` <- NULL # nolint
+  `occurrence data acquisition` <- `metadata tools` <- NULL
   lu <- c(
     occ_acquisition = "occurrence data acquisition",
     occ_cleaning = "occurrence data cleaning",
@@ -79,17 +79,14 @@ plot_table <- function(
 
   ggplot(dd, aes(y = category, x = name, fill = category)) +
     geom_tile(color = "white", fill = "gray20") +
-    # scale_fill_grey(start = 0.1, end = 0.9) +
     coord_equal() +
     theme_bw() +
     scale_x_discrete(position = "top") +
     theme(
       axis.text.x.top =  element_text(color = pkg_cols, angle = 90, size = 14,
-                                 hjust = 0, vjust = 0.5, face = "bold"),
+                                      hjust = 0, vjust = 0.5, face = "bold"),
       axis.text.y = element_text(size = 14),
       axis.title = element_blank(),
       legend.position = "none"
-      # panel.grid.major.y = element_line(color="black"),
-      # panel.grid.major.x = element_line(color="black")
     )
 }
