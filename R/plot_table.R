@@ -35,8 +35,8 @@ plot_table <- function(
     data_integration = "data integration",
     env_collinearity = "environmental variable collinearity",
     env_process = "environmental variable processing",
-    bias = "addressing data biases",
-    study_region = "defining model training extent",
+    bias = "address data biases",
+    study_region = "define model training extent",
     backg_sample = "background data sampling",
     data_partitioning = "occurrence data partitioning",
     mod_fit = "model fitting",
@@ -47,9 +47,9 @@ plot_table <- function(
     mod_multispecies = "multispecies modeling",
     mod_mechanistic = "mechanistic modeling",
     pred_general = "model prediction",
-    pred_extrapolation = "model extrapolation tools/plots",
-    pred_inspect = "model behavior inspection/plots",
-    post_processing = "using predictions as analysis inputs",
+    pred_extrapolation = "model extrapolation tools",
+    pred_inspect = "model behavior inspection",
+    post_processing = "post-processing",
     gui = "graphical user interface",
     metadata = "metadata tools"
   )
@@ -75,19 +75,18 @@ plot_table <- function(
 
   d_n <- rev(unique(dd$category))
   dd$category <- factor(dd$category, levels = d_n)
+  dd <- dd |> dplyr::filter(value == TRUE)
 
-  ggplot(dd, aes(y = category, x = name, fill = value)) +
-    geom_tile() +
-    scale_fill_discrete(
-      guide = "none",
-      type = c("white", "gray30")
-    ) +
+  ggplot(dd, aes(y = category, x = name, fill = category)) +
+    geom_tile(color = "white", fill = "gray20") +
     coord_equal() +
     theme_bw() +
+    scale_x_discrete(position = "top") +
     theme(
-      axis.text.x = element_text(color = pkg_cols, angle = 90, size = 12),
-      axis.text.y = element_text(size = 12),
-      axis.title = element_blank()
-    ) +
-    scale_x_discrete(position = "top")
+      axis.text.x.top =  element_text(color = pkg_cols, angle = 90, size = 14,
+                                      hjust = 0, vjust = 0.5, face = "bold"),
+      axis.text.y = element_text(size = 14),
+      axis.title = element_blank(),
+      legend.position = "none"
+    )
 }
