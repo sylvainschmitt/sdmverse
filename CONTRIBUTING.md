@@ -8,21 +8,18 @@
 
 #### **Why?**
 
-*sdmverse* is a collaborative metapackage for listing all the metadata of the Species Distribution Modelling (SDM) packages
-Thus, *sdmverse* depends on the contribution and reviews of SDM packages maintainers to exist.
+*sdmverse* is a collaborative metapackage for collecting and visualizing metadata for R packages focusing on species distribution models (SDMs). Thus, *sdmverse* depends on contributions and reviews from maintainers and developers of SDM packages maintainers to keep up-to-date.
 
-The package metadata is located in independent YAML files in `inst/extdata/packages/`.
-For example, take a look at [*SSDM* metadata](https://github.com/sylvainschmitt/sdmverse/blob/main/inst/extdata/packages/SSDM.yaml).
+The package metadata is located in independent YAML files in `inst/extdata/packages/`. For example, take a look at [*SSDM* metadata](https://github.com/sylvainschmitt/sdmverse/blob/main/inst/extdata/packages/SSDM.yaml).
 
 #### **How?**
 
-If you want to contribute, please fork the repository on GitHub.
-Then, online on GitHub, in Rstudio or with your favourite editor, create a YAML file in `inst/extdata/packages/` called `{your_package}.yaml`.
+If you want to contribute, please fork this repository on GitHub.
+Then, on GitHub, in RStudio, or with your favorite editor, create a YAML file in `inst/extdata/packages/` named `{your_package}.yaml`.
 Copy and fill in the contents of the file [`example.yaml`](https://github.com/sylvainschmitt/sdmverse/blob/main/inst/extdata/packages/example.yaml).
 Details of the various metadata fields are given below.
 Once your file is ready and online on your GitHub fork, open a pull request to contribute to *sdmverse* named "`my_package`submission".
-Please provide in your pull request message a quick list
-and if possible a brief description of the functions of your package corresponding to each field for which you have answered yes.
+Please provide in your pull request message a quick list, and if possible, a brief description of the functions of your package corresponding to each field for which you have answered yes.
 You can then ask an editor to start the review process.
 Remember that the review process is voluntary, so try to be understanding with reviewers and editors.
 Once the review process has been successfully completed, we will be happy to include your package in the *sdmverse* to help users discover it.
