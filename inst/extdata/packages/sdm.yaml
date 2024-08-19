@@ -1,6 +1,6 @@
 name : "sdm"
 title: "Species Distribution Modelling"
-version: 1.2-40
+version: 1.2-46
 author: "Babak Naimi, Miguel B. Araujo"
 maintainer: "Babak Naimi <naimi.b@gmail.com>"
 cran: yes

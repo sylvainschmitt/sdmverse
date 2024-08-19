@@ -1,6 +1,6 @@
 name: ecospat
 title: "Spatial Ecology Miscellaneous Methods"
-version: 4.1.0
+version: 4.1.1
 author: "Olivier Broennimann, Valeria Di Cola, Blaise Petitpierre, Frank Breiner, Daniel Scherrer, Manuela D`Amen, Christophe Randin, Robin Engler, Wim Hordijk, Heidi Mod, Julien Pottier, Mirko Di Febbraro, Loic Pellissier, Dorothea Pio, Ruben Garcia Mateo, Anne Dubuis, Luigi Maiorano, Achilleas Psomas, Charlotte Ndiribe, Nicolas Salamin, Niklaus Zimmermann, Flavien Collart, Valentin Verdon, Tyler Smith, Antoine Guisan"
 maintainer: "Olivier Broennimann <olivier.broennimann@unil.ch>"
 cran: yes

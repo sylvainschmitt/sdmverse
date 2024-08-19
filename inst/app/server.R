@@ -4,7 +4,10 @@ library(dplyr)
 
 shinyServer(function(input, output) {
   # packages
-  packages <- sdmverse::prep_table(where = "online")
+  packages <- sdmverse::list_packages(where = "online") %>%
+    select(
+      -author, -cran, -description, -manuscript_citation
+    )
 
   # to further play with the table
   tab <- reactive({

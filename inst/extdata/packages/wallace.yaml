@@ -1,10 +1,7 @@
 name : wallace
 title: "A Modular Platform for Reproducible Modeling of Species Niches and Distributions"
-version: 2.1.2
-author: "Jamie M. Kass, Gonzalo E. Pinilla-Buitrago, Andrea Paz, Bethany A. Johnson,
-Valentina Grisales-Betancur, Dean Attali, Matthew E. Aiello-Lammens, Cory Merow,
-Mary E. Blair, Robert P. Anderson, Sarah I. Meenan, Olivier Broennimann, Peter J. Galante,
-Brian S. Maitner, Hannah L. Owens, Sara Varela, Bruno Vilela, Robert Muscarella"
+version: 2.1.3
+author: "Bethany A. Johnson, Jamie M. Kass, Gonzalo E. Pinilla-Buitrago, Andrea Paz, Valentina Grisales-Betancur, Dean Attali, Matthew E. Aiello-Lammens, Cory Merow, Mary E. Blair, Robert P. Anderson, Sarah I. Meenan, Olivier Broennimann, Peter J. Galante, Brian S. Maitner, Hannah L. Owens, Sara Varela, Bruno Vilela, Robert Muscarella"
 maintainer: "Mary E. Blair <mblair1@amnh.org>"
 cran: yes
 repository: "https://github.com/wallaceEcoMod/wallace"

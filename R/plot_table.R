@@ -83,8 +83,10 @@ plot_table <- function(
     theme_bw() +
     scale_x_discrete(position = "top") +
     theme(
-      axis.text.x.top =  element_text(color = pkg_cols, angle = 90, size = 14,
-                                      hjust = 0, vjust = 0.5, face = "bold"),
+      axis.text.x.top = element_text(
+        color = pkg_cols, angle = 90, size = 14,
+        hjust = 0, vjust = 0.5, face = "bold"
+      ),
       axis.text.y = element_text(size = 14),
       axis.title = element_blank(),
       legend.position = "none"

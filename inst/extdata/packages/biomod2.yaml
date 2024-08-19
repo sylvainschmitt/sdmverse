@@ -1,6 +1,6 @@
 name: biomod2
 title: Ensemble Platform for Species Distribution Modeling
-version: 4.2-5
+version: 4.2-5-2
 author: "Wilfried Thuiller, Damien Georges, Maya Gueguen, Robin Engler, Frank Breiner, Bruno Lafourcade, Remi Patin, Helene Blancheteau"
 maintainer: Maya Gueguen <maya.gueguen@univ-grenoble-alpes.fr>
 cran: yes
