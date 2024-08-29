@@ -1,7 +1,7 @@
 name : modEvA
 title: "Model Evaluation and Analysis"
-version: 3.17
-author: "Barbosa A.M., Brown J.A., Jimenez-Valverde A., Real R."
+version: 3.18.2
+author: "Barbosa A.M., Brown J.A., Jimenez-Valverde A., Real R.z, A. Marcia Barbosa"
 maintainer: "A. Marcia Barbosa <ana.marcia.barbosa@gmail.com>"
 cran: yes
 repository: https://modeva.r-forge.r-project.org/

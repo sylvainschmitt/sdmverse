@@ -28,7 +28,14 @@ shinyServer(function(input, output) {
       )) %>%
       datatable(
         escape = FALSE, class = "cell-border stripe",
-        filter = "top", rownames = FALSE
+        filter = "top", rownames = FALSE,
+        extensions = "FixedColumns",
+        options = list(
+          paging = TRUE,
+          pageLength = nrow(packages),
+          searching = TRUE,
+          fixedColumns = list(leftColumns = 1)
+        )
       ) %>%
       formatStyle(colnames(select_if(packages, is.logical)),
         backgroundColor = styleEqual(
