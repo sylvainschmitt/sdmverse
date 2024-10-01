@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9022
+
+-   app update with M. Noblis suggestions
+
 sdmverse 0.1.0.9021
 
 -   app update

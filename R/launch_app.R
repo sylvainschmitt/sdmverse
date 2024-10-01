@@ -1,5 +1,7 @@
 #' @include utils-pipe.R
-#' @importFrom shiny runApp
+#' @import shiny
+#' @import shinycssloaders
+#' @import shinydashboard
 #' @importFrom DT renderDataTable dataTableOutput
 NULL
 

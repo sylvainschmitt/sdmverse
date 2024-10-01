@@ -17,7 +17,7 @@ Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 4.0)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Imports: 
     igraph,
 	  factoextra,
@@ -31,7 +31,9 @@ Imports:
     tidyr,
     stringr,
     tools,
-    ggplot2
+    ggplot2,
+    shinycssloaders,
+    shinydashboard
 Collate: 
     'utils-pipe.R'
     'list_packages.R'

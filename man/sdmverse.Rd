@@ -2,8 +2,8 @@
 % Please edit documentation in R/sdmverse.R
 \docType{package}
 \name{sdmverse}
-\alias{sdmverse}
 \alias{sdmverse-package}
+\alias{sdmverse}
 \title{sdmverse: A Meta-Package For Harnessing The Growing Diversity Of Species
 Distribution Modeling Packages}
 \description{
