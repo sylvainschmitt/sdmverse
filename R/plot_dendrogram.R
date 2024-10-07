@@ -25,44 +25,25 @@ NULL
 #'
 #' @examples
 #' \donttest{
-#' # fetch data
-#' table <- prep_table()
-#'
-#' # a rectangular dendrogram
-#' rect <- plot_dendrogram(
-#'   table = table,
-#'   dist_method = "binary",
-#'   k = nrow(table),
-#'   k_colors = "jco",
-#'   rect = TRUE,
-#'   rect_border = "jco",
-#'   rect_fill = TRUE,
-#'   type = "rectangle",
+#' library(dplyr)
+#' d <- prep_table(where = "online") %>%
+#'   filter(
+#'     name != "rgbif",
+#'     name != "ibis.iSDM",
+#'     name != "dismo"
+#'   ) %>%
+#'   select(
+#'     -mod_mechanistic,
+#'     -mod_multispecies
+#'   )
+#' plot_dendrogram(
+#'   d,
+#'   k = 5,
+#'   cex = 0.7,
+#'   diff_method = "binary",
 #'   horiz = TRUE,
-#'   main = "Species distribution modeling software",
-#'   sub = date(),
-#'   cex = 1.4
+#'   main = ""
 #' )
-#'
-#' # a phylogenic plot
-#' phylo <- plot_dendrogram(
-#'   table = table,
-#'   dist_method = "binary",
-#'   k = nrow(table),
-#'   k_colors = "jco",
-#'   rect = TRUE,
-#'   rect_border = "jco",
-#'   type = "phylogenic",
-#'   repel = TRUE,
-#'   main = "Species distribution modeling software",
-#'   sub = date(),
-#'   cex = 1
-#' )
-#' }
-#'
-#' \dontrun{
-#' library(patchwork)
-#' rect + phylo
 #' }
 #'
 #' @export

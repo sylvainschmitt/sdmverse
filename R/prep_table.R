@@ -14,7 +14,17 @@ NULL
 #'
 #' @examples
 #' \donttest{
-#' prep_table()
+#' library(dplyr)
+#' d <- prep_table(where = "online") %>%
+#'   filter(
+#'     name != "rgbif",
+#'     name != "ibis.iSDM",
+#'     name != "dismo"
+#'   ) %>%
+#'   select(
+#'     -mod_mechanistic,
+#'     -mod_multispecies
+#'   )
 #' }
 #'
 #' @export

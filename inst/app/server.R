@@ -95,9 +95,7 @@ shinyServer(function(input, output) {
         )
       )
   })
-  output$table <- DT::renderDataTable(
-    {
-      tab()
-    },
-  )
+  output$table <- DT::renderDataTable({
+    tab()
+  }, )
 })

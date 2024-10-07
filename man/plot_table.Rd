@@ -22,9 +22,19 @@ Plot package characteristics from the sdmverse table using ggplot.
 Plot sdmverse table
 }
 \examples{
-\dontrun{
-prep_table() \%>\%
-  plot_table()
+\donttest{
+library(dplyr)
+d <- prep_table(where = "online") \%>\%
+  filter(
+    name != "rgbif",
+    name != "ibis.iSDM",
+    name != "dismo"
+  ) \%>\%
+  select(
+    -mod_mechanistic,
+    -mod_multispecies
+  )
+plot_table(d, remove_empty_cats = TRUE)
 }
 
 }

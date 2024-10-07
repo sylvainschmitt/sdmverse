@@ -1,3 +1,7 @@
+sdmverse 0.1.0.9023
+
+-   inst/scripts/ms_figs.R to examples sections
+
 sdmverse 0.1.0.9022
 
 -   app update with M. Noblis suggestions
