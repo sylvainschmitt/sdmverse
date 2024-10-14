@@ -8,7 +8,7 @@
 
 #### **Why?**
 
-*sdmverse* is a collaborative metapackage that catalogues metadata for R packages that focus on Species Distribution Modeling (SDM). This package depends on the contributions, reviews, and edits of SDM package maintainers.
+*sdmverse* is a collaborative metapackage for collecting and visualizing metadata for R packages focusing on species distribution models (SDMs). This package depends on the contributions, reviews, and edits of SDM package maintainers.
 
 Metadata for packages are found in YAML files located in `inst/extdata/packages/`.
 For example, take a look at [*SSDM* metadata](https://github.com/sylvainschmitt/sdmverse/blob/main/inst/extdata/packages/SSDM.yaml).
@@ -24,7 +24,7 @@ Here is the list of actions to do (to be improved with text):
     Ex. Dear {name}, thanks for your submission.
         Unfortunately, the metadata in the fields {fields} do not match those on CRAN {link to GitHub Action}
 3. Seek reviewers:
-    Ex. I'm looking for a second reviewer: @{collaborators} are you available? Please have a look at the  [reviewing guidelines](https://github.com/sylvainschmitt/sdmverse/blob/main/REVIEWING.md)
+    Ex. I'm looking for a second reviewer: @{collaborators} are you available? Please have a look at the [reviewing guidelines](https://github.com/sylvainschmitt/sdmverse/blob/main/REVIEWING.md)
 4. Wait for review approval.
 5. Make a decision:
     Ex. Unfortunately, your package does not meet the `sdmverse` requirements for inclusion, so I must reject your pull request. If you have questions, please post an Issue in this repository.

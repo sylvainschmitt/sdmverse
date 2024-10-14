@@ -6,10 +6,7 @@
 [![lint](https://github.com/sylvainschmitt/sdmverse/workflows/lint/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions?query=workflow%3Alint)
 [![check-cran-metadata](https://github.com/sylvainschmitt/sdmverse/actions/workflows/check-cran-metadata.yaml/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions?query=workflow%3Acheck-cran-metadata)
 
-*sdmverse* is a collaborative metapackage for listing all the metadata of the Species Distribution Modelling (SDM) packages.
-*sdmverse* includes a graphical interface available locally or online (see below).
-*sdmverse* integrates metadata from SDM packages and checks their validity against the CRAN metadata for perenity.
-If you want to contribute with your package metadata, please use the contribution guidelines (see below).
+*sdmverse* is a collaborative metapackage for collecting and visualizing metadata for R packages focusing on species distribution models (SDMs), including a graphical interface for local or online use. Contributions of package metadata to *sdmverse* are checked automatically for validity against CRAN metadata. If you want to contribute your package metadata, please consult the contribution guidelines (see below).
 
 ## Online
 
@@ -40,4 +37,4 @@ sdmverse::launch_app()
 
 ## Contribution
 
-If you want to contribute with your package metadata, please use a pull request following [the contribution guidelines](https://github.com/sylvainschmitt/sdmverse/blob/main/CONTRIBUTING.md).
+If you want to contribute your package metadata, please submit a pull request following [the contribution guidelines](https://github.com/sylvainschmitt/sdmverse/blob/main/CONTRIBUTING.md).

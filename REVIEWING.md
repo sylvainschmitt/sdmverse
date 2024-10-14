@@ -8,7 +8,7 @@
 
 #### **Why?**
 
-*sdmverse* is a collaborative metapackage that catalogues metadata for R packages that focus on Species Distribution Modeling (SDM). This package depends on the contributions, reviews, and edits of SDM package maintainers.
+*sdmverse* is a collaborative metapackage for collecting and visualizing metadata for R packages focusing on species distribution models (SDMs). This package depends on the contributions, reviews, and edits of SDM package maintainers.
 
 Metadata for packages are found in YAML files located in `inst/extdata/packages/`.
 For example, take a look at [*SSDM* metadata](https://github.com/sylvainschmitt/sdmverse/blob/main/inst/extdata/packages/SSDM.yaml).
