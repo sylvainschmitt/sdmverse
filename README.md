@@ -5,6 +5,7 @@
 [![Codecov test coverage](https://codecov.io/gh/sylvainschmitt/sdmverse/branch/main/graph/badge.svg)](https://app.codecov.io/gh/sylvainschmitt/sdmverse?branch=main)
 [![lint](https://github.com/sylvainschmitt/sdmverse/workflows/lint/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions?query=workflow%3Alint)
 [![check-cran-metadata](https://github.com/sylvainschmitt/sdmverse/actions/workflows/check-cran-metadata.yaml/badge.svg)](https://github.com/sylvainschmitt/sdmverse/actions?query=workflow%3Acheck-cran-metadata)
+[![DOI](https://zenodo.org/badge/337167277.svg)](https://doi.org/10.5281/zenodo.7994454)
 
 *sdmverse* is a collaborative metapackage for collecting and visualizing metadata for R packages focusing on species distribution models (SDMs), including a graphical interface for local or online use. Contributions of package metadata to *sdmverse* are checked automatically for validity against CRAN metadata. If you want to contribute your package metadata, please consult the contribution guidelines (see below).
 
