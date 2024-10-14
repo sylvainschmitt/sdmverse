@@ -1,5 +1,5 @@
 #' @include utils-pipe.R
-#' @import shiny
+#' @rawNamespace import(shiny, except=c(dataTableOutput, renderDataTable))
 #' @import shinycssloaders
 #' @import shinydashboard
 #' @importFrom DT renderDataTable dataTableOutput

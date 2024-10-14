@@ -1,3 +1,7 @@
+sdmverse 1.0.0
+
+-   Ecography version
+
 sdmverse 0.1.0.9023
 
 -   inst/scripts/ms_figs.R to examples sections
