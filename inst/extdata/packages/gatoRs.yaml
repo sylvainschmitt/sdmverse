@@ -1,0 +1,32 @@
+name : gatoRs
+title: "Geographic and Taxonomic Occurrence R-Based Scrubbing"
+version: 1.0.2
+author: "Natalie N. Patten, Michelle L. Gaynor, Douglas E. Soltis, Pamela S. Soltis"
+maintainer: "Natalie N. Patten <natalienpatten@gmail.com>"
+cran: yes
+repository: "https://github.com/nataliepatten/gatoRs"
+description: "Streamlines downloading and cleaning biodiversity data from Integrated Digitized Biocollections (iDigBio) and the Global Biodiversity Information Facility (GBIF)."
+occ_acquisition: yes
+occ_cleaning: yes
+data_integration: no
+env_collinearity: no
+env_process: no
+bias: yes
+study_region: no
+backg_sample: no
+data_partitioning: no
+mod_fit: no
+mod_tuning: no
+mod_ensemble: no
+mod_stack: yes
+mod_evaluate: no
+mod_multispecies: no
+mod_mechanistic: no
+pred_general: yes
+pred_extrapolation: no
+pred_inspect: no
+post_processing: no
+gui: yes
+metadata: no
+manuscript_citation: "Patten N, Gaynor M, Soltis D, Soltis P (2024). Geographic And Taxonomic Occurrence R-based Scrubbing (gatoRs): An R package and workflow for processing biodiversity data. Applications in Plant Sciences, 12(2), e11575"
+manuscript_doi: "10.1002/aps3.11575"
