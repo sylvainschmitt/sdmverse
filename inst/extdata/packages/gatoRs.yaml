@@ -26,7 +26,7 @@ pred_general: no
 pred_extrapolation: no
 pred_inspect: no
 post_processing: no
-gui: yes
+gui: no
 metadata: yes
 manuscript_citation: "Patten N, Gaynor M, Soltis D, Soltis P (2024). Geographic And Taxonomic Occurrence R-based Scrubbing (gatoRs): An R package and workflow for processing biodiversity data. Applications in Plant Sciences, 12(2), e11575"
 manuscript_doi: "10.1002/aps3.11575"
