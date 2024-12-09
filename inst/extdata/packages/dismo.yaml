@@ -1,6 +1,6 @@
 name: dismo
 title: Species Distribution Modeling
-version: 1.3-14
+version: 1.3-16
 author: Robert J. Hijmans, Steven Phillips, John Leathwick, Jane Elith
 maintainer: Robert J. Hijmans <r.hijmans@gmail.com>
 cran: yes

@@ -1,7 +1,7 @@
 name : fuzzySim
 title: "Fuzzy Similarity in Species Distributions"
-version: 4.10.7
-author: "Barbosa A.M."
+version: 4.26
+author: "A. Marcia Barbosa, Paul Melloy, Jose Carlos Guerrero, A. Marcia Barbosa"
 maintainer: "A. Marcia Barbosa <ana.marcia.barbosa@gmail.com>"
 cran: yes
 repository: https://fuzzysim.r-forge.r-project.org/
