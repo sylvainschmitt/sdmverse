@@ -12,7 +12,7 @@ data_integration: no
 env_collinearity: yes
 env_process: no
 bias: yes
-study_region: no
+study_region: yes
 backg_sample: yes
 data_partitioning: no
 mod_fit: yes
@@ -28,5 +28,5 @@ pred_inspect: no
 post_processing: yes
 gui: no
 metadata: no
-manuscript_citation: "Barbosa, A.M., Real, R., Munoz, A.R. & Brown, J.A. (2013). New measures for assessing model equilibrium and prediction mismatch in species distribution models. Diversity and Distributions, 19(10), 1333-1338."
-manuscript_doi: "10.1111/ddi.12100"
+manuscript_citation: "Barbosa A.M. (2015). “fuzzySim: applying fuzzy logic to binary similarity indices in ecology.” Methods in Ecology and Evolution, 6(7), 853-858"
+manuscript_doi: "10.1111/2041-210X.12372"
